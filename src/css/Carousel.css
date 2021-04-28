@@ -1,0 +1,18 @@
+.img-slide {
+  /* max-width: 600px !important; */
+  justify-content: center !important;
+}
+
+.img-slide p, h3 {
+  color: #1E90FF !important;
+}
+
+.img-slide img {
+  justify-content: center !important;
+  display: flex !important;
+}
+
+.d-block .w-100 .img-slide {
+  display: flex !important;
+  /* width: 800px !important; */
+}

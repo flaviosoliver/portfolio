@@ -1,0 +1,26 @@
+.header-container {
+  align-content: center;
+  display: flex;
+  height: 100%;
+  width: auto;
+}
+
+.header-container nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-container a {
+  color: aliceblue;
+  font-size: 2vw;
+  height: 100%;
+  margin: 0 5px;
+  padding: 10px;
+}
+
+.header-container a:hover {
+  background-color:rgb(18, 18, 20);
+  border-radius: 30px;
+  text-decoration: none;
+}

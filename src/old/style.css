@@ -1,0 +1,145 @@
+body {
+  background-color: black;
+  font-family: "Exo 2", Candara, Palatino, Ubuntu, Geo, Garamond, -apple-system,
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5em;
+  margin: unset;
+  padding: 0;
+}
+
+.menu {
+  align-items: center;
+  /* background-image: url(images/topo2-1-5000x3100.png); */
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  padding: 5% 5%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aux {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutme {
+  filter: grayscale(100%);
+  height: auto;
+  max-width: 70%;
+}
+
+.aboutme-1:hover {
+  filter: grayscale(0%);
+  transition: 10ms;
+}
+
+.skill {
+  filter: grayscale(100%);
+  height: auto;
+  max-width: 70%;
+}
+
+.skill-1:hover {
+  filter: grayscale(0%);
+  transition: 10ms;
+}
+
+.flag {
+  filter: grayscale(100%);
+  height: auto;
+  max-width: 70%;
+}
+
+.flag-1:hover {
+  filter: grayscale(0%);
+  transition: 10ms;
+}
+
+.star {
+  filter: grayscale(100%);
+  height: auto;
+  max-width: 70%;
+}
+
+.star-1:hover {
+  filter: grayscale(0%);
+  transition: 10ms;
+}
+
+.img-responsive {
+  border-radius: 25%;
+}
+
+.zoom img {
+  max-width: 100%;
+  transition: all 0.3s;
+}
+
+.zoom:hover img {
+  transform: scale(1.1);
+}
+
+.banner-top {
+  margin: 0;
+}
+
+.name {
+  color: brown;
+  font-size: x-large;
+  text-align: center;
+  text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+.caption {
+  color: brown;
+  margin: 15px 15px;
+}
+
+.subtitle {
+  color: chocolate;
+  margin: 15px 15px;
+  text-shadow: beige 0.1em 0.1em 0.2em;
+}
+
+.text {
+  color: rgb(19, 11, 1);
+  margin: 15px 15px;
+  text-align: justify;
+}
+
+.column {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 0 solid #ccc;
+}
+
+.column2 {
+  column-count: 1;
+  column-gap: 30px;
+  column-rule: 10px solid #ccc;
+}
+
+.designer {
+  color: rgb(34, 37, 37);
+  font-size: small;
+  font-style: italic;
+  text-align: right;
+  text-shadow: beige 0.1em 0.1em 0.2em;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: underline;
+}
+a:hover {
+  color: rgb(155, 11, 11);
+  text-decoration: underline overline;
+}
+
+.links {
+  vertical-align: top;
+}
