@@ -1,20 +1,22 @@
 .aside-container {
   color: rgb(209, 209, 209, 209);
-  height: 620px;
-  padding: 30px 10px;
+  height: 100%;
+  padding: 5px 5px;
   text-align: center;
 }
 
 .aside-container h2 {
   font-family: TechnoBold, Ubuntu;
-  padding: 50px 10px 0 10px;
+  padding: 0 10px 0 10px;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   width: bold;
 }
 
 .aside-container p {
   font-family: Tekton, Ubuntu;
-  padding: 20px 10px;
+  font-size: larger;
+  margin-bottom: 0 !important;
+  padding: 10px 0;
 }
 
 .nav-container {
@@ -23,7 +25,6 @@
   justify-content: space-between;
   margin: 0;
   padding: 0 10px;
-  width: 100%;
 }
 
 .social-icon img {
@@ -32,7 +33,7 @@
 }
 
 .nav-title p {
-  padding: 30px 10px 0 10px;
+  padding: 10px 10px 0 10px;
 }
 
 .logo {
@@ -41,5 +42,6 @@
 
 .profile {
   border-radius: 140px;
-  max-width: 100px;
+  max-width: 20vh;
+  min-width: 10vw;
 }

@@ -17,20 +17,26 @@ body {
 }
 
 .aside {
+  /* margin-top: -55px; */
   display: flex;
   flex-flow: column;
+  height: 100%;
+  max-width: 320px;
   padding: 10px 10px 10px 10px;
   position: fixed;
-  width: 320px;
 }
 
 .header {
-  color: rgb(209, 209, 209);
+  color: rgb(18, 18, 20);
   display: flex;
   flex-flow: column;
   font-family: Ubuntu;
   justify-content: space-between;
   padding: 0 0 10px 0;
+}
+
+.main {
+  margin-top: 10px;
 }
 
 .content {
@@ -42,6 +48,7 @@ body {
   color: rgb(209, 209, 209);
   display: flex;
   justify-content: center;
+  margin-top: 60px;
 }
 
 .cover h2, h3, h4, ul {

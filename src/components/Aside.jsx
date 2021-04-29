@@ -11,7 +11,7 @@ export default class Aside extends Component {
         <img className="logo" src={devFsoLight} alt="Logo" />
         <img className="profile" src={profile} alt="Profile" />
         <h2>Flávio Oliveira</h2>
-        <p>Estudante de Desenvolvimento Web Full Stack</p>
+        <p>Desenvolvedor Web Full Stack</p>
         <section className="nav-title">
           <Nav />
         </section>
