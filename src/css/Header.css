@@ -6,21 +6,26 @@
 }
 
 .header-container nav {
+  background-color:rgb(18, 18, 20);
+  border-radius: 30px;
   display: flex;
   justify-content: space-between;
+  text-decoration: none;
   width: 100%;
 }
 
 .header-container a {
+  align-items: center;
+  display: flex;
   color: aliceblue;
-  font-size: 2vw;
+  font-size: 0,5vh;
   height: 100%;
-  margin: 0 5px;
+  margin: 0 auto;
   padding: 10px;
 }
 
 .header-container a:hover {
-  background-color:rgb(18, 18, 20);
+  background-color:rgb(20, 20, 41);
   border-radius: 30px;
   text-decoration: none;
 }

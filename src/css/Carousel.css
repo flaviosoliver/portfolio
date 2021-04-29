@@ -1,10 +1,25 @@
 .img-slide {
-  /* max-width: 600px !important; */
+  display: flex !important;
+  /* max-width: 800px !important; */
   justify-content: center !important;
+  align-content: center;
+  border-radius: 30px;
 }
 
-.img-slide p, h3 {
-  color: #1E90FF !important;
+.img-slide-title {
+  background-color: rgba(3, 3, 49, 0.65);
+  align-content: center;
+}
+
+.img-slide-title h3 {
+  padding: 0 10px 10px 10px !important;
+  align-items: center !important;
+}
+
+.img-slide p {
+  color: #0b68c5 !important;
+  padding: 0 10px 10px 10px !important;
+  align-items: center !important;
 }
 
 .img-slide img {
