@@ -4,7 +4,6 @@ import Header from '../components/Header';
 import CarouselImg from '../components/CarouselImg';
 import devDark from '../images/devDark.png';
 import '../css/Home.css';
-import '../css/Testes.css';
 
 export default class Home extends Component {
   render() {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { HashLink } from 'react-router-hash-link';
-// import '../css/Header.css';
+import '../css/Header.css';
 
 export default class Header extends Component {
   state = {  }
