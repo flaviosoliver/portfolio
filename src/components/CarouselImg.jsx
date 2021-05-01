@@ -11,6 +11,7 @@ import ProjectZooFunctions from '../images/ProjectZooFunctions.png';
 import ProjectShoppingCart from '../images/ProjectShoppingCart.png';
 import ProjectJest from '../images/ProjectJest.png';
 import Project from '../images/Project.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Carousel.css';
 
 class CarouselImg extends Component {
