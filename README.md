@@ -6,7 +6,7 @@ Criado com React.JS
 
 Deploy realizado na plataforma Vercel
 
-Acesse ao Link: [https://flaviosoliver-portfolio.vercel.app/](https://flaviosoliver-portfolio.vercel.app/){:target="_blank" rel="noopener"}
+Acesse ao Link: [https://flaviosoliver-portfolio.vercel.app/](https://flaviosoliver-portfolio.vercel.app/)
 
 ## Mais Detalhes
 
