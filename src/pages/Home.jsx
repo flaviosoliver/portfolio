@@ -188,7 +188,7 @@ export default class Home extends Component {
                   Para Sorrir:
                 </font>
                 <br />
-              </h4>     
+              </h4>
               <ul>
                 <li>
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_compiler._/">_compiler._</a>

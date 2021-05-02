@@ -15,34 +15,62 @@ export default class Nav extends Component {
           <p>Minhas Redes Sociais:</p>
         </div>
         <nav className="nav-container">
-          <a target="_blank" rel="noopener noreferrer" className="nav-aside-items" href="https://www.linkedin.com/in/flaviosoliver/">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-aside-items"
+            href="https://www.linkedin.com/in/flaviosoliver/"
+            title="Linkedin"
+          >
             <img
               className="social-icon"
               src={ linkedin }
               alt="Linkedin"
               width="40px"
-            /></a>
-          <a target="_blank" rel="noopener noreferrer" className="nav-aside-items" href="https://github.com/flaviosoliver/">
+            />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-aside-items"
+            href="https://github.com/flaviosoliver/"
+            title="GitHub"
+          >
             <img
               className="social-icon"
               src={ github1 }
               alt="GitHub"
               width="40px"
-            /></a>
-          <a target="_blank" rel="noopener noreferrer" className="nav-aside-items" href="https://www.facebook.com/flaviosoliver/">
+            />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-aside-items"
+            href="https://www.facebook.com/flaviosoliver/"
+            title="Facebook"
+          >
             <img
               className="social-icon"
               src={ facebook }
               alt="Facebook"
               width="40px"
-            /></a>
-          <a target="_blank" rel="noopener noreferrer" className="nav-aside-items" href="https://www.instagram.com/flaviosoliver.dev/">
+            />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-aside-items"
+            href="https://www.instagram.com/flaviosoliver.dev/"
+            title="Instagram"
+          >
             <img
               className="social-icon"
               src={ instagram }
               alt="Instagram"
               width="40px"
-            /></a>
+            />
+          </a>
         </nav>
       </section>
     );
