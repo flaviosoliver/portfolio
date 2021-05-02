@@ -26,7 +26,7 @@ class CarouselImg extends Component {
           />
           <Carousel.Caption className="img-slide img-slide-title">
             <h4>Fundamentos do Desenvolvimento Web - Lessons Learned</h4>
-            <p>Projeto do Bloco 3 - Introdução à HTML e CSS: Criar um site que com uma série de informações a respeito do que foi aprendido nos três blocos iniciais do curso na Trybe, estilizado de forma apropriada.</p>
+            <p>Projeto do Bloco 3 - Introdução à HTML e CSS</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -38,7 +38,7 @@ class CarouselImg extends Component {
 
           <Carousel.Caption className="img-slide img-slide-title">
             <h4>Fundamentos do Desenvolvimento Web - Playground Functions</h4>
-            <p>Projeto do Bloco 4 - Introdução à JavaScript e Lógica de Programação: Implementar funções a partir de requisitos.</p>
+            <p>Projeto do Bloco 4 - Introdução à JavaScript e Lógica de Programação</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -50,7 +50,7 @@ class CarouselImg extends Component {
 
           <Carousel.Caption className="img-slide img-slide-title">
             <h4>Fundamentos do Desenvolvimento Web - Pixels Art</h4>
-            <p>Projeto do Bloco 5 - JavaScript: DOM, Eventos e Web Storage: Implementar um editor de arte com pixels. Ou seja, dada uma paleta de cores e um quadro composto por pixels, permitir que quem usa consiga pintar o que quiser no quadro!</p>
+            <p>Projeto do Bloco 5 - JavaScript: DOM, Eventos e Web Storage</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -62,7 +62,7 @@ class CarouselImg extends Component {
 
           <Carousel.Caption className="img-slide img-slide-title">
             <h4>Fundamentos do Desenvolvimento Web - Meme Generator</h4>
-            <p>Projeto do Bloco 5 - JavaScript: DOM, Eventos e Web Storage: Criar uma página com Gerador de Meme, fazer upload de uma imagem para a página e adicione algum texto sobre ela.</p>
+            <p>Projeto do Bloco 5 - JavaScript: DOM, Eventos e Web Storage</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -74,7 +74,7 @@ class CarouselImg extends Component {
 
           <Carousel.Caption className="img-slide img-slide-title">
             <h4>Fundamentos do Desenvolvimento Web - Todo List</h4>
-            <p>Projeto do Bloco 5 - JavaScript: DOM, Eventos e Web Storage: Construir uma página para controle de Lista de Tarefas, integrando conhecimentos de HTML , CSS e JavaScript.</p>
+            <p>Projeto do Bloco 5 - JavaScript: DOM, Eventos e Web Storage</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -86,7 +86,7 @@ class CarouselImg extends Component {
 
           <Carousel.Caption className="img-slide img-slide-title">
             <h4>Fundamentos do Desenvolvimento Web - Facebook Sign-up</h4>
-            <p>Projeto do Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo: Implementar um editor de arte com pixels. Ou seja, dada uma paleta de cores e um quadro composto por pixels, permitir que quem usa consiga pintar o que quiser no quadro!</p>
+            <p>Projeto do Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -98,7 +98,7 @@ class CarouselImg extends Component {
 
           <Carousel.Caption className="img-slide img-slide-title">
             <h4>Fundamentos do Desenvolvimento Web - JavaScript Unit Tests</h4>
-            <p>Projeto do Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários: Implementar funções a partir de requisitos e testes unitários, utilizando o módulo Assert do NodeJS para verificar o correto funcionamento dessas funções.</p>
+            <p>Projeto do Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -110,7 +110,7 @@ class CarouselImg extends Component {
 
           <Carousel.Caption className="img-slide img-slide-title">
             <h4>Fundamentos do Desenvolvimento Web - Zoo Functions</h4>
-            <p>Projeto do Bloco 8 - Higher Order Functions do JavaScript ES6: Simular um sistema de relatório de um zoológico. O sistema possui informações a respeito dos animais presentes no zoológico, colaboradores, horários de funcionamento e uma tabela de preços que varia de acordo com a idade das pessoas que o visitam. Desenvolver um conjunto de funções capazes de recuperar vários tipos de informações acerca do zoológico e de seu funcionamento</p>
+            <p>Projeto do Bloco 8 - Higher Order Functions do JavaScript ES6</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -122,7 +122,7 @@ class CarouselImg extends Component {
 
           <Carousel.Caption className="img-slide img-slide-title">
             <h4>Fundamentos do Desenvolvimento Web - Shopping Cart</h4>
-            <p>Projeto do Bloco 9 - JavaScript Assíncrono e Promises: Desenvolver um carrinho de compras. Todo e-commerce, como, por exemplo, Amazon, Americanas e Submarino, possui um carrinho de compras para auxiliar as pessoas consumidoras a salvar os itens que desejam comprar.</p>
+            <p>Projeto do Bloco 9 - JavaScript Assíncrono e Promises</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -134,7 +134,7 @@ class CarouselImg extends Component {
 
           <Carousel.Caption className="img-slide img-slide-title">
             <h4>Fundamentos do Desenvolvimento Web - Jest</h4>
-            <p>Projeto do Bloco 10 - Testes automatizados com Jest: Implementar testes utilizando o Jest para verificar o correto funcionamento de uma série de funções.</p>
+            <p>Projeto do Bloco 10 - Testes automatizados com Jest</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
