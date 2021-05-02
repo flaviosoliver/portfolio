@@ -1,5 +1,15 @@
+.aside {
+  margin-top: 0;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  max-width: 320px;
+  padding: 10px 10px 10px 10px;
+  position: fixed;
+}
+
 .aside-container {
-  color: rgb(209, 209, 209, 209);
+  color: rgb(209, 209, 209);
   height: 100%;
   padding: 5px 5px;
   text-align: center;
@@ -24,12 +34,11 @@
   flex-flow: nowrap;
   justify-content: space-between;
   margin: 0;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 
-.social-icon img {
-  height: 10px;
-  width: 10px !important;
+.nav-container img {
+  width: 50px !important;
 }
 
 .nav-title p {
@@ -45,3 +54,4 @@
   max-width: 20vh;
   min-width: 10vw;
 }
+

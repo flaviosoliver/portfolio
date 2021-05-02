@@ -10,33 +10,8 @@
   src: url('../font/TEKTON.TTF');
 }
 
-body {
-  background-color: #000325;
-  background-image: linear-gradient(180deg, #000000 0%, #09090c 50%, #000000 100%);
-  max-width: 100%;
-}
-
-.aside {
-  /* margin-top: -55px; */
-  display: flex;
-  flex-flow: column;
-  height: 100%;
-  max-width: 320px;
-  padding: 10px 10px 10px 10px;
-  position: fixed;
-}
-
-.header {
-  color: rgb(18, 18, 20);
-  display: flex;
-  flex-flow: column;
-  font-family: Ubuntu;
-  justify-content: space-between;
-  padding: 0 0 10px 0;
-}
-
-.main {
-  margin-top: 10px;
+main {
+  margin: 10px 5px;
 }
 
 .content {
