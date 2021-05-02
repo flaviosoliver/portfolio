@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import Aside from '../components/Aside';
 import Header from '../components/Header';
 import CarouselImg from '../components/CarouselImg';
+import Footer from '../components/Footer';
 import devDark from '../images/devDark.png';
 import '../css/Home.css';
 import '../css/Mobile.css';
+import '../css/Footer.css';
 
 export default class Home extends Component {
   render() {
@@ -203,6 +205,9 @@ export default class Home extends Component {
             </article>
           </section>
         </div>
+        <footer>
+          <Footer />
+        </footer>
       </main>
     );
   }
