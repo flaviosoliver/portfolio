@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { HashLink } from 'react-router-hash-link';
 import Carousel from 'react-bootstrap/Carousel'
 import ProjectLessonsLearned from '../images/ProjectLessonsLearned.png';
 import ProjectPlaygroundFunctions from '../images/ProjectPlaygroundFunctions.png';
@@ -19,39 +20,45 @@ class CarouselImg extends Component {
     return (
       <Carousel>
         <Carousel.Item>
-          <img
-            className="d-block w-100 img-slide"
-            src={ProjectLessonsLearned}
-            alt="Projeto - Lessons Learned"
-          />
-          <Carousel.Caption className="img-slide img-slide-title">
-            <h4>Fundamentos do Desenvolvimento Web - Lessons Learned</h4>
-            <p>Projeto do Bloco 3 - Introdução à HTML e CSS</p>
-          </Carousel.Caption>
+          <HashLink to="/projetos/#project-01">
+            <img
+              className="d-block w-100 img-slide"
+              src={ProjectLessonsLearned}
+              alt="Projeto - Lessons Learned"
+            />
+            <Carousel.Caption className="img-slide img-slide-title">
+              <h4>Fundamentos do Desenvolvimento Web - Lessons Learned</h4>
+              <p>Projeto do Bloco 3 - Introdução à HTML e CSS</p>
+            </Carousel.Caption>
+          </HashLink>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100 img-slide"
-            src={ProjectPlaygroundFunctions}
-            alt="Projeto - Playground Function"
-          />
+        <HashLink to="/projetos/#project-02">
+            <img
+              className="d-block w-100 img-slide"
+              src={ProjectPlaygroundFunctions}
+              alt="Projeto - Playground Function"
+            />
 
-          <Carousel.Caption className="img-slide img-slide-title">
-            <h4>Fundamentos do Desenvolvimento Web - Playground Functions</h4>
-            <p>Projeto do Bloco 4 - Introdução à JavaScript e Lógica de Programação</p>
-          </Carousel.Caption>
+            <Carousel.Caption className="img-slide img-slide-title">
+              <h4>Fundamentos do Desenvolvimento Web - Playground Functions</h4>
+              <p>Projeto do Bloco 4 - Introdução à JavaScript e Lógica de Programação</p>
+            </Carousel.Caption>
+          </HashLink>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100 img-slide"
-            src={ProjectPixelsArt}
-            alt="Projeto - Arte com Pixels"
-          />
+        <HashLink to="/projetos/#project-03">
+            <img
+              className="d-block w-100 img-slide"
+              src={ProjectPixelsArt}
+              alt="Projeto - Arte com Pixels"
+            />
 
-          <Carousel.Caption className="img-slide img-slide-title">
-            <h4>Fundamentos do Desenvolvimento Web - Pixels Art</h4>
-            <p>Projeto do Bloco 5 - JavaScript: DOM, Eventos e Web Storage</p>
-          </Carousel.Caption>
+            <Carousel.Caption className="img-slide img-slide-title">
+              <h4>Fundamentos do Desenvolvimento Web - Pixels Art</h4>
+              <p>Projeto do Bloco 5 - JavaScript: DOM, Eventos e Web Storage</p>
+            </Carousel.Caption>
+          </HashLink>
         </Carousel.Item>
         <Carousel.Item>
           <img
