@@ -1,10 +1,20 @@
+.header-logo {
+  z-index: 3;
+  width: 70px;
+  margin: 10px;
+}
+
+.header-logo img {
+  width: 70px;
+}
+
 .project-list {
   margin: 60px auto;
 }
 
 .project-list h1 {
   color: rgb(209, 209, 209);
-  font-size: 2vw;
+  font-size: min(max(16px, 4vw), 22px);
   justify-content: center;
   margin: 0 auto;
   text-align: center;
@@ -26,13 +36,10 @@
   padding: 20px 20px;
 }
 
-.project-grid-item a {
+.project-grid-item-imagem {
+  display: flex;
   justify-content: center;
-  margin: 20px;
-  padding: 20px 20px;
-}
-
-.project-grid-item img {
+  margin: 0 auto;
   width: 80%;
 }
 
@@ -48,4 +55,9 @@
 .project-content,
 .task-content {
   color: rgb(209, 209, 209);
+}
+
+.project {
+  display: flex;
+  justify-content: center;
 }

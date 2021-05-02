@@ -1,13 +1,24 @@
 import React, { Component } from 'react';
+import { HashLink } from 'react-router-hash-link';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import '../css/Projects.css';
-import { ProjectLessonsLearned, ProjectPlaygroundFunctions, ProjectPixelsArt } from '../services/ExportImages';
+import '../css/Footer.css';
+import { devFsoDark, ProjectLessonsLearned, ProjectPlaygroundFunctions, ProjectPixelsArt } from '../services/ExportImages';
 
 export default class Projects extends Component {
   render() {
     return (
       <main className="project-list">
         <header className="header">
+          <div className="header-logo">
+            <HashLink to="/">
+              <img
+                src={ devFsoDark }
+                alt="Logo"
+                title="Ir para Home" />
+            </HashLink>
+          </div>
             <Header />
         </header>
         <h1>
@@ -16,7 +27,7 @@ export default class Projects extends Component {
         <section className="project-grid">
           <article className="project-grid-item" id="project-01">
             <img
-              className=""
+              className="project-grid-item-imagem"
               src={ ProjectLessonsLearned }
               alt="Projeto Lessons Learned"
             />
@@ -39,21 +50,22 @@ export default class Projects extends Component {
             className="project"
             href="https://github.com/flaviosoliver/project-lessons-learned"
             title="Project Lessons Learned - Repositório"
-            > Repositório
+            > Ir Para Repositório
             </a>
+            <br />
             <a
             target="_blank"
             rel="noopener noreferrer"
             className="project"
             href="https://flaviosoliver.github.io/project-lessons-learned/"
             title="Project Lessons Learned - Deploy"
-            > Deploy
+            > Ir Para Deploy
             </a>
           </article>
 
           <article className="project-grid-item" id="project-02">
             <img
-              className=""
+              className="project-grid-item-imagem"
               src={ ProjectPlaygroundFunctions }
               alt="Project Lessons Learned"
             />
@@ -73,16 +85,16 @@ export default class Projects extends Component {
             <a
             target="_blank"
             rel="noopener noreferrer"
-            className="projects-image"
+            className="project"
             href="https://github.com/flaviosoliver/project-playground-functions"
             title="Projeto - Playground Function - Repositório"
-            > Repositório
+            > Ir Para Repositório
             </a>
           </article>
 
           <article className="project-grid-item" id="project-03">
             <img
-              className=""
+              className="project-grid-item-imagem"
               src={ ProjectPixelsArt }
               alt="Project Pixels Art"
             />
@@ -102,21 +114,23 @@ export default class Projects extends Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="projects-image"
+              className="project"
               href="https://github.com/flaviosoliver/project-pixels-art"
               title="Projeto - Arte com Pixels - Repositório"
-            > Repositório
+            > Ir Para Repositório
             </a>
+            <br />
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="projects-image"
+              className="project"
               href="https://flaviosoliver.github.io/project-pixels-art/"
               title="Projeto - Arte com Pixels - Deploy"
-            > Deploy
+            > Ir Para Deploy
             </a>
           </article>
         </section>
+        <Footer />
       </main>
     );
   }

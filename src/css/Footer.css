@@ -1,0 +1,9 @@
+.footer {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.footer p {
+  color: rgb(84, 85, 85);
+  text-align: center;
+}

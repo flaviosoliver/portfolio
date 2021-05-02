@@ -1,3 +1,4 @@
+import devFsoDark from '../images/devFsoDark.png';
 import ProjectLessonsLearned from '../images/ProjectLessonsLearned.png';
 import ProjectPlaygroundFunctions from '../images/ProjectPlaygroundFunctions.png';
 import ProjectFacebookSignup from '../images/ProjectFacebookSignup.png';
@@ -10,6 +11,7 @@ import ProjectTodoList from '../images/ProjectTodoList.png';
 import ProjectZooFunctions from '../images/ProjectZooFunctions.png';
 
 export {
+  devFsoDark,
   ProjectLessonsLearned,
   ProjectFacebookSignup,
   ProjectJsUnitTests,
