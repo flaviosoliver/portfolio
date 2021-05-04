@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../css/Projects.css';
 import '../css/Footer.css';
-import { devFsoDark, ProjectLessonsLearned, ProjectPlaygroundFunctions, ProjectPixelsArt } from '../services/ExportImages';
+import { devFsoDark, ProjectLessonsLearned, ProjectPlaygroundFunctions, ProjectPixelsArt, ProjectMemeGenerator, ProjectTodoList } from '../services/ExportImages';
 
 export default class Projects extends Component {
   render() {
@@ -126,6 +126,82 @@ export default class Projects extends Component {
               className="project"
               href="https://flaviosoliver.github.io/project-pixels-art/"
               title="Projeto - Arte com Pixels - Deploy"
+            > Ir Para Deploy
+            </a>
+          </article>
+
+          <article className="project-grid-item" id="project-04">
+            <img
+              className="project-grid-item-imagem"
+              src={ ProjectMemeGenerator }
+              alt="Projeto Meme Generator"
+            />
+            <p className="project-title">
+              Projeto - Meme Generator
+            </p>
+            <p className="project-content">
+              Fundamentos do Desenvolvimento Web <br />
+              Projeto do Bloco 5 - JavaScript: DOM, Eventos e Web Storage
+            </p>
+            <p className="task-title">
+              Proposto:
+            </p>
+            <p className="task-content">
+              Criar uma página com Gerador de Meme, fazer upload de uma imagem para a página e adicione algum texto sobre ela.
+            </p>
+            <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project"
+            href="https://github.com/flaviosoliver/project-meme-generator"
+            title="Project Meme Generator - Repositório"
+            > Ir Para Repositório
+            </a>
+            <br />
+            <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project"
+            href="https://flaviosoliver.github.io/project-meme-generator/"
+            title="Project Meme Generator - Deploy"
+            > Ir Para Deploy
+            </a>
+          </article>
+
+          <article className="project-grid-item" id="project-05">
+            <img
+              className="project-grid-item-imagem"
+              src={ ProjectTodoList }
+              alt="Projeto Lista de tarefas"
+            />
+            <p className="project-title">
+              Projeto - Lista de tarefas
+            </p>
+            <p className="project-content">
+              Fundamentos do Desenvolvimento Web <br />
+              Projeto do Bloco 5 - JavaScript: DOM, Eventos e Web Storage
+            </p>
+            <p className="task-title">
+              Proposto:
+            </p>
+            <p className="task-content">
+              Construir uma página para controle de Lista de Tarefas, integrando conhecimentos de HTML , CSS e JavaScript.
+            </p>
+            <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project"
+            href="https://github.com/flaviosoliver/project-todo-list"
+            title="Project Todo List - Repositório"
+            > Ir Para Repositório
+            </a>
+            <br />
+            <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project"
+            href="https://flaviosoliver.github.io/project-todo-list/"
+            title="Project Todo List - Deploy"
             > Ir Para Deploy
             </a>
           </article>
