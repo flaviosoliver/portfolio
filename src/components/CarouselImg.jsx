@@ -15,7 +15,7 @@ import Project from '../images/Project.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Carousel.css';
 
-class CarouselImg extends Component {
+export default class CarouselImg extends Component {
   render() {
     return (
       <Carousel>
@@ -90,15 +90,17 @@ class CarouselImg extends Component {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img
-            className="d-block w-100 img-slide"
-            src={ProjectFacebookSignup}
-            alt="Projeto - Página inicial do Facebook"
-          />
-          <Carousel.Caption className="img-slide img-slide-title">
-            <h4>Fundamentos do Desenvolvimento Web - Facebook Sign-up</h4>
-            <p>Projeto do Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo</p>
-          </Carousel.Caption>
+        <HashLink to="/projetos/#project-06">
+            <img
+              className="d-block w-100 img-slide"
+              src={ProjectFacebookSignup}
+              alt="Projeto - Página inicial do Facebook"
+            />
+            <Carousel.Caption className="img-slide img-slide-title">
+              <h4>Fundamentos do Desenvolvimento Web - Facebook Sign-up</h4>
+              <p>Projeto do Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo</p>
+            </Carousel.Caption>
+          </HashLink>
         </Carousel.Item>
 
         <Carousel.Item>
@@ -164,5 +166,3 @@ class CarouselImg extends Component {
     );
   }
 }
-
-export default CarouselImg;

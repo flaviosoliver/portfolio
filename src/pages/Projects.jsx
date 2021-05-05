@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../css/Projects.css';
 import '../css/Footer.css';
-import { devFsoDark, ProjectLessonsLearned, ProjectPlaygroundFunctions, ProjectPixelsArt, ProjectMemeGenerator, ProjectTodoList } from '../services/ExportImages';
+import { devFsoDark, ProjectLessonsLearned, ProjectPlaygroundFunctions, ProjectPixelsArt, ProjectMemeGenerator, ProjectTodoList, ProjectFacebookSignup } from '../services/ExportImages';
 
 export default class Projects extends Component {
   render() {
@@ -109,7 +109,7 @@ export default class Projects extends Component {
               Proposto:
             </p>
             <p className="task-content">
-            Implementar um editor de arte com pixels. Ou seja, dada uma paleta de cores e um quadro composto por pixels, permitir que quem usa consiga pintar o que quiser no quadro!
+              Implementar um editor de arte com pixels. Ou seja, dada uma paleta de cores e um quadro composto por pixels, permitir que quem usa consiga pintar o que quiser no quadro!
             </p>
             <a
               target="_blank"
@@ -202,6 +202,44 @@ export default class Projects extends Component {
             className="project"
             href="https://flaviosoliver.github.io/project-todo-list/"
             title="Project Todo List - Deploy"
+            > Ir Para Deploy
+            </a>
+          </article>
+
+          <article className="project-grid-item" id="project-06">
+            <img
+              className="project-grid-item-imagem"
+              src={ ProjectFacebookSignup }
+              alt="Projeto Página inicial do Facebook"
+            />
+            <p className="project-title">
+              Projeto - Lista de tarefas
+            </p>
+            <p className="project-content">
+              Fundamentos do Desenvolvimento Web <br />
+              Projeto do Bloco 5 - JavaScript: DOM, Eventos e Web Storage
+            </p>
+            <p className="task-title">
+              Proposto:
+            </p>
+            <p className="task-content">
+              Recriar o icônico layout da tela de cadastro da rede social mais acessada do mundo, o Facebook, com uma audiência de mais de 2,3 bilhões de usuários por mês.
+            </p>
+            <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project"
+            href="https://github.com/flaviosoliver/project-facebook-signup"
+            title="Project Facebook Sign-up - Repositório"
+            > Ir Para Repositório
+            </a>
+            <br />
+            <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project"
+            href="https://flaviosoliver.github.io/project-facebook-signup/"
+            title="Project Facebook Sign-up - Deploy"
             > Ir Para Deploy
             </a>
           </article>
