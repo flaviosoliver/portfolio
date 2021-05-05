@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../css/Projects.css';
 import '../css/Footer.css';
-import { devFsoDark, ProjectLessonsLearned, ProjectPlaygroundFunctions, ProjectPixelsArt, ProjectMemeGenerator, ProjectTodoList, ProjectFacebookSignup } from '../services/ExportImages';
+import { devFsoDark, ProjectLessonsLearned, ProjectPlaygroundFunctions, ProjectPixelsArt, ProjectMemeGenerator, ProjectTodoList, ProjectFacebookSignup, ProjectJsUnitTests } from '../services/ExportImages';
 
 export default class Projects extends Component {
   render() {
@@ -213,11 +213,11 @@ export default class Projects extends Component {
               alt="Projeto Página inicial do Facebook"
             />
             <p className="project-title">
-              Projeto - Lista de tarefas
+              Projeto - Página inicial do Facebook
             </p>
             <p className="project-content">
               Fundamentos do Desenvolvimento Web <br />
-              Projeto do Bloco 5 - JavaScript: DOM, Eventos e Web Storage
+              Projeto do Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
             </p>
             <p className="task-title">
               Proposto:
@@ -242,6 +242,36 @@ export default class Projects extends Component {
             title="Project Facebook Sign-up - Deploy"
             > Ir Para Deploy
             </a>
+          </article>
+
+          <article className="project-grid-item" id="project-07">
+            <img
+              className="project-grid-item-imagem"
+              src={ ProjectJsUnitTests }
+              alt="Projeto JavaScript Testes Unitários"
+            />
+            <p className="project-title">
+              Projeto - JavaScript Testes Unitários
+            </p>
+            <p className="project-content">
+              Fundamentos do Desenvolvimento Web <br />
+              Projeto do Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários
+            </p>
+            <p className="task-title">
+              Proposto:
+            </p>
+            <p className="task-content">
+              Implementar funções a partir de requisitos e testes unitários, utilizando o módulo Assert do NodeJS para verificar o correto funcionamento dessas funções.
+            </p>
+            <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project"
+            href="https://github.com/flaviosoliver/project-js-unit-tests"
+            title="Project JavaScript Unit Tests - Repositório"
+            > Ir Para Repositório
+            </a>
+            
           </article>
         </section>
         <Footer />

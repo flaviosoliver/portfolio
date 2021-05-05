@@ -104,15 +104,17 @@ export default class CarouselImg extends Component {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img
-            className="d-block w-100 img-slide"
-            src={ProjectJsUnitTests}
-            alt="Projeto - JavaScript Testes Unitários"
-          />
-          <Carousel.Caption className="img-slide img-slide-title">
-            <h4>Fundamentos do Desenvolvimento Web - JavaScript Unit Tests</h4>
-            <p>Projeto do Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários</p>
-          </Carousel.Caption>
+        <HashLink to="/projetos/#project-07">
+            <img
+              className="d-block w-100 img-slide"
+              src={ProjectJsUnitTests}
+              alt="Projeto - JavaScript Testes Unitários"
+            />
+            <Carousel.Caption className="img-slide img-slide-title">
+              <h4>Fundamentos do Desenvolvimento Web - JavaScript Unit Tests</h4>
+              <p>Projeto do Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários</p>
+            </Carousel.Caption>
+          </HashLink>
         </Carousel.Item>
 
         <Carousel.Item>
