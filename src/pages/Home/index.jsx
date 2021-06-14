@@ -32,15 +32,12 @@ export default function Home() {
               {' '}
               <strong><font color="#1E90FF">baiano de sangue, raiz e coração.</font></strong>
               {' '}
-              // eslint-disable-next-line max-len
               Moro em Barreiras, região Oeste da Bahia, onde sigo cada vez  apaixonado por tecnologia e em busca de novidades na área. Com o sonho de me tornar Desenvolvedor, embarquei junto a
               {' '}
               <strong><font color="#1E90FF">Trybe</font></strong>
               {' '}
-              // eslint-disable-next-line max-len
               em Junho de 2020, fazendo desse, o pontapé inicial nessa longa caminhada em busca de muito conhecimento e conquistas.
               <br />
-              // eslint-disable-next-line max-len
               Atualmente como servidor público concursado lotado no TRE-BA, com experiência em suporte de TI em lojas comerciais, incluindo montagem, manutenção e configuração de microcomputadores e redes, professor de Informática no SESI-BA, além do desempenho de funções nas áreas Administrativas e Departamentos de Informática.
             </p>
             <br />
