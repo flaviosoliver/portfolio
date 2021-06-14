@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: TechnoBold;
-  src: url('../font/TECHNOB.TTF');
+  src: url('../../font/TECHNOB.TTF');
 }
 
 @font-face {
   font-family: Tekton;
-  src: url('../font/TEKTON.TTF');
+  src: url('../../font/TEKTON.TTF');
 }
 
 main {
@@ -55,5 +55,20 @@ main {
 .caption-sub {
   background-color: #000325;
   background-image: linear-gradient(90deg, #1d1c1c 0%, #09090c 50%, #000000 100%);
+  border-radius: 10px;
   padding: 5px;
+}
+
+.contact-container {
+  margin: 0 auto;
+  display: flex;
+  justify-self: center;
+}
+
+.recommendations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 217px);
+  grid-template-rows: auto;
+  justify-content: center;
+  padding: 20px 20px;
 }
