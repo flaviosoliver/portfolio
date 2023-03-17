@@ -6,6 +6,8 @@ const projects = [
     Stack: ['HTML', 'CSS'],
     Descrição: 'Criar um site que com uma série de informações a respeito do que foi aprendido nos três blocos iniciais do curso na Trybe, estilizado de forma apropriada.',
     Imagem: '../images/ProjectLessonsLearned.png',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. I - Fundamentos do Desenvolvimento Web',
@@ -14,6 +16,8 @@ const projects = [
     Stack: ['JavaScript'],
     Descrição: 'Implementar funções a partir de requisitos.',
     Imagem: '../images/ProjectPlaygroundFunctions.png',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. I - Fundamentos do Desenvolvimento Web',
@@ -22,6 +26,8 @@ const projects = [
     Stack: ['JavaScript', 'DOM'],
     Descrição: 'Implementar um editor de arte com pixels. Ou seja, dada uma paleta de cores e um quadro composto por pixels, permitir que quem usa consiga pintar o que quiser no quadro!',
     Imagem: '../images/ProjectPixelsArt.png',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. I - Fundamentos do Desenvolvimento Web',
@@ -30,6 +36,8 @@ const projects = [
     Stack: ['JavaScript', 'DOM'],
     Descrição: 'Criar uma página com Gerador de Meme, fazer upload de uma imagem para a página e adicione algum texto sobre ela.',
     Imagem: '../images/ProjectMemeGenerator.png',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. I - Fundamentos do Desenvolvimento Web',
@@ -38,6 +46,8 @@ const projects = [
     Stack: ['JavaScript', 'DOM'],
     Descrição: 'Construir uma página para controle de Lista de Tarefas, integrando conhecimentos de HTML , CSS e JavaScript.',
     Imagem: '../images/ProjectTodoList.png',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. I - Fundamentos do Desenvolvimento Web',
@@ -46,6 +56,8 @@ const projects = [
     Stack: ['JavaScript', 'CSS', 'HTML'],
     Descrição: 'Recriar o icônico layout da tela de cadastro da rede social mais acessada do mundo, o Facebook, com uma audiência de mais de 2,3 bilhões de usuários por mês.',
     Imagem: '../images/ProjectFacebookSignup.png',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. I - Fundamentos do Desenvolvimento Web',
@@ -54,6 +66,8 @@ const projects = [
     Stack: ['NodeJS', 'Unit Test', 'JavaScript'],
     Descrição: 'Implementar funções a partir de requisitos e testes unitários, utilizando o módulo Assert do NodeJS para verificar o correto funcionamento dessas funções.',
     Imagem: '../images/ProjectJsUnitTests.png',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. I - Fundamentos do Desenvolvimento Web',
@@ -62,6 +76,8 @@ const projects = [
     Stack: ['JavaScript', 'Higher Order Functions'],
     Descrição: 'Simular um sistema de relatório de um zoológico. Você desenvolverá um conjunto de funções capazes de recuperar vários tipos de informações acerca do zoológico e de seu funcionamento. O sistema possui informações a respeito dos animais presentes no zoológico, colaboradores, horários de funcionamento e uma tabela de preços que varia de acordo com a idade das pessoas que o visitam.',
     Imagem: '../images/ProjectZooFunctions.png',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. I - Fundamentos do Desenvolvimento Web',
@@ -70,6 +86,8 @@ const projects = [
     Stack: ['Async', 'Promises'],
     Descrição: 'Desenvolver um carrinho de compras. Este projeto visa colocar em prática todo o conteúdo aprendido sobre Web Storage e assincronicidade em JavaScript .',
     Imagem: '../images/ProjectShoppingCart.png',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. I - Fundamentos do Desenvolvimento Web',
@@ -78,6 +96,8 @@ const projects = [
     Stack: ['Jest', 'Tests', 'Mock'],
     Descrição: 'Implementar testes utilizando o Jest para verificar o correto funcionamento de uma série de funções.',
     Imagem: '../images/ProjectJest.png',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. II - Desenvolvimento Front-end',
@@ -86,6 +106,8 @@ const projects = [
     Stack: ['React'],
     Descrição: 'Desenvolver site usando React, onde este será uma biblioteca de cartões contendo informações sobre filmes.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. II - Desenvolvimento Front-end',
@@ -94,6 +116,8 @@ const projects = [
     Stack: ['React'],
     Descrição: 'Neste projeto também vai desenvolver uma biblioteca de filmes, tornando-a dinâmica via interação do usuário! Deve-se gerenciar estado e integrá-lo com capturas de eventos e formulários.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. II - Desenvolvimento Front-end',
@@ -102,6 +126,8 @@ const projects = [
     Stack: ['React', 'CRUD', 'React Router', 'lifecycle-methods'],
     Descrição: 'Agora a biblioteca terá diversas rotas, cada uma responsável por uma parte da funcionalidade. Desenvolver um app que permite criar, atualizar, visualizar e apagar cartões, colocando em prática os conceitos de React Router e lifecycle-methods',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. II - Desenvolvimento Front-end',
@@ -110,6 +136,8 @@ const projects = [
     Stack: ['Kanban', 'React'],
     Descrição: 'Construir o Front-End de um e-commerce, uma loja online, alimentada por uma API do Mercado Livre. Projeto em grupo! O objetivo é sedimentar tudo o que foi aprendido sobre React até aqui, enquanto praticam a organização de um projeto em time com a metodologia ágil e Kanban.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. II - Desenvolvimento Front-end',
@@ -118,6 +146,8 @@ const projects = [
     Stack: ['RTL', 'React', 'Testes'],
     Descrição: 'Escrever testes automatizados para uma aplicação React.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. II - Desenvolvimento Front-end',
@@ -126,6 +156,8 @@ const projects = [
     Stack: ['Redux', 'React'],
     Descrição: 'Criar uma aplicação que computa gastos em diferentes moedas e converte tudo para uma única moeda, que pode ser escolhida por quem usa. Utilizando Redux para gerenciamento de estado do React.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. II - Desenvolvimento Front-end',
@@ -134,6 +166,8 @@ const projects = [
     Stack: ['Kanban', 'React', 'Redux'],
     Descrição: 'Desenvolver um jogo de perguntas e respostas baseado no jogo Trivia, parecido um show do milhão americano, utilizando React e Redux. Projeto em Grupo.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. II - Desenvolvimento Front-end',
@@ -142,6 +176,8 @@ const projects = [
     Stack: ['Context API', 'Hooks', 'React'],
     Descrição: 'Desenvolver uma tabela por meio de uma Requisição API, com dados de Planetas dos filmes StarWars, utilizando Context API e Hooks para controle de filtros.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. II - Desenvolvimento Front-end',
@@ -150,6 +186,8 @@ const projects = [
     Stack: ['Redux', 'Context API', 'Hooks', 'Kanban', 'Figma'],
     Descrição: 'Desenvolver um sistema que permite visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o processo de preparação de receitas e drinks. A base de dados serão 2 APIs distintas, uma para comidas e outra para bebidas. Utilizando conceitos de Redux, Context API e React Hooks. Projeto em grupo.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -158,6 +196,8 @@ const projects = [
     Stack: ['SQL', 'Banco de Dados', 'MySQL'],
     Descrição: 'Projeto com três níveis de desafios. Cada nível trabalhará habilidades diferentes: Desafios de SELECT e criação de dados; Desafios sobre filtragem de dados; Desafios de manipulação de tabelas. Com modelagem de dados N:1.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -166,6 +206,8 @@ const projects = [
     Stack: ['SQL', 'MySQL'],
     Descrição: 'Projeto com os seguintes desafios, em que trabalhará habilidades diferentes: Controle de fluxo com condicionais; Operações matemáticas; Lidando com datas; Manipulação de strings; Agrupamento de dados; Filtragem de dados; JOINS & UNIONS; Subqueries; Stored routines.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -174,6 +216,8 @@ const projects = [
     Stack: ['SQL', 'MySQL'],
     Descrição: 'O projeto passará pelos seguintes desafios, que trabalharão habilidades diferentes: Analisar se duas tabelas não normalizadas; Identificar modificações necessárias para que suas tabelas estejam adequadamente na 1ª, 2ª e 3ª Forma Normais; Criar um banco de dados a partir de uma planilha que contém tabelas e dados; Criar e modelar tabelas;Queries que passam pelos principais comandos SQL vistos até o momento. Relacionamento 1:N',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -182,6 +226,8 @@ const projects = [
     Stack: ['NoSQL', 'MongoDB'],
     Descrição: 'Esse projeto está dividido em três níveis. Cada um deles trabalhará habilidades diferentes. Esses níveis são: Selecionar e contar documentos utilizando filtros simples; Selecionar e contar documentos utilizando filtros avançados e alguns operadores de comparação; Construir queries mais complexas juntando operadores de comparação e operadores lógicos.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -190,6 +236,8 @@ const projects = [
     Stack: ['MongoDB', 'NoSQL'],
     Descrição: 'Este projeto está dividido em três níveis. Cada um deles trabalhará habilidades diferentes. Esses níveis são: Alterar documentos utilizando métodos de update com operadores simples; Alterar documentos utilizando operadores complexos e modificadores; Construir queries e expressões complexas utilizando índices textuais e expressões regulares.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -198,6 +246,8 @@ const projects = [
     Stack: ['MongoDB', 'NoSQL', 'Aggregations'],
     Descrição: 'Esse projeto está dividido em três datasets. Cada um deles trabalhará habilidades diferentes. Esses datasets são: Uma base de dados com filmes, onde faremos várias operações para encontrar dados bem interessantes, além de transformá-los para uma melhor visualização; Uma base de dados com dados de rotas e parcerias de empresas aéreas; Por fim, uma base de dados com registros de utilização de bicicletas na cidade de Nova York.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -206,6 +256,8 @@ const projects = [
     Stack: ['NodeJS', 'API'],
     Descrição: 'Construir uma API de cadastro de talkers, onde será possível cadastrar, visualizar, pesquisar, editar e excluir talkers.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -214,6 +266,8 @@ const projects = [
     Stack: ['NodeJS', 'MongoDB', 'MSC', 'API Restful', 'CRUD'],
     Descrição: 'Arquitetar e desenvolver uma API com banco de dados MongoDB. Desenvolver endpoints para criar, exibir, atualizar e excluir produtos e vendas. Utilizar padrões arquiteturais MSC (model-service-controller). Além disso, exercitar conhecimentos sobre REST, criando uma API completamente RESTful.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -222,6 +276,8 @@ const projects = [
     Stack: ['JWT', 'Multer', 'MSC', 'NodeJS', 'API Rest', 'CRUD'],
     Descrição: 'Desenvolver uma aplicação back-end de um sistema de cadastro e pesquisa de receitas, utilizando JWT, Multer, MSC e arquitetura REST! Nela, será possível cadastrar usuários do tipo cliente e admin. Apenas usuários do tipo admin terão acesso a todas as receitas cadastradas; já os usuários do tipo client devem ter permissão para disparar qualquer tipo de ação apenas em suas próprias receitas cadastradas.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -230,6 +286,8 @@ const projects = [
     Stack: ['Deploy', 'Heroku', 'PM2'],
     Descrição: 'Existem dois projetos-base que deverão ser atualizados. Um projeto consiste em uma API que traz uma lista com os personagens da série Stranger Things. O outro projeto é um front-end que exibe as informações retornadas pela API em uma tabela, fornecendo também um campo para filtrar pelo nome dos personagens. Adaptar e configurar esses projetos-base (front-end e back-end) para ser feito o deploy no Heroku. Utilizar, também, o PM2 para gerenciar e monitorar os processos. Além disso, parametrizar algumas configurações através de variáveis de ambientes, além de configurar a comunicação entre back-end e front-end, utilizando multiambientes.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -238,6 +296,8 @@ const projects = [
     Stack: ['Kanban', 'CRUD'],
     Descrição: 'Criar uma plataforma de delivery de cerveja. Para facilitar o entendimento, dá para dividirmos a aplicação em três partes: API (compartilhada entre cliente e admin); Front-end cliente (onde o cliente vai comprar a cerveja); Front-end admin (onde o estabelecimento controla os pedido feitos). Projeto em Grupo!',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -246,6 +306,8 @@ const projects = [
     Stack: ['SOLID', 'ORM', 'CRUD'],
     Descrição: 'Desenvolver e testar uma API para um Blog, além de um banco de dados. Usando como exemplo a API do Blogger. Nela, terá um CRUD de postagens com uma camada de autenticação de pessoas usuárias.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -254,6 +316,8 @@ const projects = [
     Stack: ['Sockets', 'socket.io', 'MVC'],
     Descrição: 'Desenvolver uma aplicação com um front-end e um back-end sobre um chat, utilizando tudo o que aprendemos nas aulas sobre sockets e socket.io! Nela será possível listar todas as pessoas conectadas no chat e, além de poder enviar mensagens no chat global, quem usa também poderá enviar mensagens privadas para outras pessoas. Além disso, organizar o seu código seguindo a arquitetura MVC.',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. III - Desenvolvimento Back-end',
@@ -262,6 +326,8 @@ const projects = [
     Stack: ['', ''],
     Descrição: '',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
   {
     Módulo: 'Mód. IV - Ciência da Computação',
@@ -270,6 +336,8 @@ const projects = [
     Stack: ['', ''],
     Descrição: '',
     Imagem: '../images/',
+    Repositório: '',
+    Deploy: '',
   },
 ];
 
