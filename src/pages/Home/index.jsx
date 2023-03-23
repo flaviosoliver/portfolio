@@ -294,9 +294,9 @@ export default function Home() {
             </div>
           </article>
         </section>
-      <div className="contact-container" id="contato">
+      {/* <div className="contact-container" id="contato">
         <Contact />
-      </div>
+      </div> */}
       </div>
       <footer>
         <Footer />
