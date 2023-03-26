@@ -11,7 +11,6 @@ import ProjectJsUnitTests from '../../images/ProjectJsUnitTests.png';
 import ProjectZooFunctions from '../../images/ProjectZooFunctions.png';
 import ProjectShoppingCart from '../../images/ProjectShoppingCart.png';
 import ProjectJest from '../../images/ProjectJest.png';
-import Project from '../../images/Project.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../css/Carousel.css';
 
@@ -117,51 +116,45 @@ export default function CarouselImg() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <img
-          className="d-block w-100 img-slide"
-          src={ProjectZooFunctions}
-          alt="Projeto - Zoo functions"
-        />
-        <Carousel.Caption className="img-slide img-slide-title">
-          <h4>Fundamentos do Desenvolvimento Web - Zoo Functions</h4>
-          <p>Projeto do Bloco 8 - Higher Order Functions do JavaScript ES6</p>
-        </Carousel.Caption>
+        <HashLink to="/projetos">
+          <img
+            className="d-block w-100 img-slide"
+            src={ProjectZooFunctions}
+            alt="Projeto - Zoo functions"
+          />
+          <Carousel.Caption className="img-slide img-slide-title">
+            <h4>Fundamentos do Desenvolvimento Web - Zoo Functions</h4>
+            <p>Projeto do Bloco 8 - Higher Order Functions do JavaScript ES6</p>
+          </Carousel.Caption>
+        </HashLink>
       </Carousel.Item>
 
       <Carousel.Item>
-        <img
-          className="d-block w-100 img-slide"
-          src={ProjectShoppingCart}
-          alt="Projeto - Carrinho de Compras"
-        />
-        <Carousel.Caption className="img-slide img-slide-title">
-          <h4>Fundamentos do Desenvolvimento Web - Shopping Cart</h4>
-          <p>Projeto do Bloco 9 - JavaScript Assíncrono e Promises</p>
-        </Carousel.Caption>
+        <HashLink to="/projetos">
+          <img
+            className="d-block w-100 img-slide"
+            src={ProjectShoppingCart}
+            alt="Projeto - Carrinho de Compras"
+          />
+          <Carousel.Caption className="img-slide img-slide-title">
+            <h4>Fundamentos do Desenvolvimento Web - Shopping Cart</h4>
+            <p>Projeto do Bloco 9 - JavaScript Assíncrono e Promises</p>
+          </Carousel.Caption>
+        </HashLink>
       </Carousel.Item>
 
       <Carousel.Item>
-        <img
-          className="d-block w-100 img-slide"
-          src={ProjectJest}
-          alt="Projeto - Jest Assíncrono e Mocking"
-        />
-        <Carousel.Caption className="img-slide img-slide-title">
-          <h4>Fundamentos do Desenvolvimento Web - Jest</h4>
-          <p>Projeto do Bloco 10 - Testes automatizados com Jest</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img
-          className="d-block w-100 img-slide"
-          src={Project}
-          alt="Projeto"
-        />
-        <Carousel.Caption className="img-slide img-slide-title">
-          <h4>Projeto</h4>
-          <p>Projeto do Bloco 00: descrição do projeto.</p>
-        </Carousel.Caption>
+        <HashLink to="/projetos">
+          <img
+            className="d-block w-100 img-slide"
+            src={ProjectJest}
+            alt="Projeto - Jest Assíncrono e Mocking"
+          />
+          <Carousel.Caption className="img-slide img-slide-title">
+            <h4>Fundamentos do Desenvolvimento Web - Jest</h4>
+            <p>Projeto do Bloco 10 - Testes automatizados com Jest</p>
+          </Carousel.Caption>
+        </HashLink>
       </Carousel.Item>
     </Carousel>
   );
