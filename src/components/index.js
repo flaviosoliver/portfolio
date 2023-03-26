@@ -4,6 +4,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import Header from './Header';
 import Nav from './Nav';
+import ProjectCard from './ProjectCard';
 
 export {
   Aside,
@@ -12,4 +13,5 @@ export {
   Contact,
   Footer,
   Header,
+  ProjectCard
 };
