@@ -19,7 +19,7 @@ export default function CarouselImg() {
   return (
     <Carousel>
       <Carousel.Item>
-        <HashLink to="/projetos/#project-01">
+        <HashLink to="/projetos">
           <img
             className="d-block w-100 img-slide"
             src={ProjectLessonsLearned}
@@ -33,7 +33,7 @@ export default function CarouselImg() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <HashLink to="/projetos/#project-02">
+        <HashLink to="/projetos">
           <img
             className="d-block w-100 img-slide"
             src={ProjectPlaygroundFunctions}
@@ -47,7 +47,7 @@ export default function CarouselImg() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <HashLink to="/projetos/#project-03">
+        <HashLink to="/projetos">
           <img
             className="d-block w-100 img-slide"
             src={ProjectPixelsArt}
@@ -61,7 +61,7 @@ export default function CarouselImg() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <HashLink to="/projetos/#project-04">
+        <HashLink to="/projetos">
           <img
             className="d-block w-100 img-slide"
             src={ProjectMemeGenerator}
@@ -75,7 +75,7 @@ export default function CarouselImg() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <HashLink to="/projetos/#project-05">
+        <HashLink to="/projetos">
           <img
             className="d-block w-100 img-slide"
             src={ProjectTodoList}
@@ -89,7 +89,7 @@ export default function CarouselImg() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <HashLink to="/projetos/#project-06">
+        <HashLink to="/projetos">
           <img
             className="d-block w-100 img-slide"
             src={ProjectFacebookSignup}
@@ -103,7 +103,7 @@ export default function CarouselImg() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <HashLink to="/projetos/#project-07">
+        <HashLink to="/projetos">
           <img
             className="d-block w-100 img-slide"
             src={ProjectJsUnitTests}
