@@ -1,15 +1,12 @@
 import React from 'react';
-import linkedin from '../../images/linkedin.png';
-import github1 from '../../images/github1.png';
-// import github2 from '../images/github2.png';
-import facebook from '../../images/facebook.png';
-import instagram from '../../images/instagram.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn, faGithub, faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import '../Aside/Aside.css';
 
 export default function Nav() {
   return (
     <section>
-      <div>
+      <div className="caption">
         <p>Minhas Redes Sociais:</p>
       </div>
       <nav className="nav-container">
@@ -20,12 +17,7 @@ export default function Nav() {
           href="https://www.linkedin.com/in/flaviosoliver/"
           title="Linkedin"
         >
-          <img
-            className="social-icon"
-            src={linkedin}
-            alt="Linkedin"
-            width="40px"
-          />
+          <FontAwesomeIcon icon={faLinkedinIn} size="2x" alt="Linkedin" />
         </a>
         <a
           target="_blank"
@@ -34,12 +26,7 @@ export default function Nav() {
           href="https://github.com/flaviosoliver/"
           title="GitHub"
         >
-          <img
-            className="social-icon"
-            src={github1}
-            alt="GitHub"
-            width="40px"
-          />
+          <FontAwesomeIcon icon={faGithub} size="2x" alt="Github" />
         </a>
         <a
           target="_blank"
@@ -48,12 +35,7 @@ export default function Nav() {
           href="https://www.facebook.com/flaviosoliver/"
           title="Facebook"
         >
-          <img
-            className="social-icon"
-            src={facebook}
-            alt="Facebook"
-            width="40px"
-          />
+          <FontAwesomeIcon icon={faFacebookF} size="2x" alt="Facebook" />
         </a>
         <a
           target="_blank"
@@ -62,12 +44,7 @@ export default function Nav() {
           href="https://www.instagram.com/flaviosoliver.dev/"
           title="Instagram"
         >
-          <img
-            className="social-icon"
-            src={instagram}
-            alt="Instagram"
-            width="40px"
-          />
+          <FontAwesomeIcon icon={faInstagram} size="2x" alt="Instagram" />
         </a>
       </nav>
     </section>
