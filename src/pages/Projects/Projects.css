@@ -49,12 +49,39 @@
 
 .project-title,
 .task-title {
-  color:#1E90FF;
+  color: #1e90ff;
+}
+
+.project-title,
+.project-module,
+.project-block,
+.task-content {
+  text-align: center;
 }
 
 .project-content,
 .task-content {
   color: rgb(209, 209, 209);
+}
+
+.task-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.task-badge {
+  display: block;
+  margin: 10px;
+  text-align: center;
+}
+
+.badge-custom {
+  margin: auto 2px;
+}
+
+.task-btn-repo,
+.task-btn-deploy {
+  margin: 0 5px;
 }
 
 .project {
