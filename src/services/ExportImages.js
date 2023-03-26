@@ -9,6 +9,7 @@ import ProjectPixelsArt from '../images/ProjectPixelsArt.png';
 import ProjectShoppingCart from '../images/ProjectShoppingCart.png';
 import ProjectTodoList from '../images/ProjectTodoList.png';
 import ProjectZooFunctions from '../images/ProjectZooFunctions.png';
+import Project from '../images/Project.png'
 
 export {
   devFsoDark,
@@ -22,4 +23,5 @@ export {
   ProjectShoppingCart,
   ProjectTodoList,
   ProjectZooFunctions,
+  Project
 };
