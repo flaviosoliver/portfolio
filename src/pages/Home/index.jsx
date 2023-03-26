@@ -1,6 +1,7 @@
 import React from 'react';
 import { Aside, Header, CarouselImg, Footer, Contact }  from '../../components';
 import devDark from '../../images/devDark.png';
+import bannerPortfolioDark from '../../images/bannerPortfolioDark.png';
 import './Home.css';
 import '../../css/Mobile.css';
 import '../../components/Footer/Footer.css';
@@ -16,7 +17,7 @@ export default function Home() {
           <Header />
         </header>
         <div className="cover">
-          <img src={devDark} alt="devDark" />
+          <img src={bannerPortfolioDark} alt="devDark" />
         </div>
         <section className="article">
           <article>
@@ -28,7 +29,7 @@ export default function Home() {
               <br />
             </h3>
             <p>
-              Brasileiro, nascido em Brasília-DF,
+              Brasileiro, nascido em Brasília-DF e
               {' '}
               <strong><font color="#1E90FF">baiano de sangue, raiz e coração.</font></strong>
               {' '}
@@ -38,7 +39,11 @@ export default function Home() {
               {' '}
               em Junho de 2020, fazendo desse, o pontapé inicial nessa longa caminhada em busca de muito conhecimento e conquistas.
               <br />
-              Atualmente como servidor público concursado lotado no TRE-BA, com experiência em suporte de TI em lojas comerciais, incluindo montagem, manutenção e configuração de microcomputadores e redes, professor de Informática no SESI-BA, além do desempenho de funções nas áreas Administrativas e Departamentos de Informática.
+              Já fui servidor público concursado lotado no TRE-BA, com experiência em suporte de TI em lojas comerciais, incluindo montagem, manutenção e configuração de microcomputadores e redes, professor de Informática no SESI-BA, além do desempenho de funções nas áreas Administrativas e Departamentos de Informática.
+              <br />
+              Com dois anos de experiência profissional como Desenvolvedor, fui integrante do time de desenvolvimento de uma ferramenta de comunicação na EdTech brasileira <strong>amais educação</strong>, <a target="_blank" href="https://www.amaiseducacao.com.br/solucoes/agendamais/" rel="noreferrer">Agenda+. </a>
+              Onde através de <strong><font color="#1E90FF">metodologias ágeis Scrum e Kanban</font></strong>, empregamos como linguagem de desenvolvimento <strong><font color="#1E90FF">TypeScript</font></strong>, front-end em <strong><font color="#1E90FF">Angular</font></strong>, back-end em <strong><font color="#1E90FF">NodeJS</font></strong> com <strong><font color="#1E90FF">NestJS</font></strong>, ODM com <strong><font color="#1E90FF">Mongoose</font></strong> e banco de dados não relacional (NoSQL) <strong><font color="#1E90FF">MongoDb</font></strong>.
+              Nesse período pude contribuir diretamente na melhoria do código, tratamento de situações legadas, scripts de manutenção no banco de dados, melhorias em processos internos e documentação da aplicação.
             </p>
             <br />
           </article>
@@ -64,17 +69,26 @@ export default function Home() {
               <li>Conhecimento na área de Suporte de TI;</li>
               <li>Inglês básico (compreensão de texto escrito);</li>
               <li>
-                Atualmente estudando e aprimorando conhecimentos a cerca da profissão de
-                {' '}
-                <strong><font color="#1E90FF">Desenvolvedor Web Full Stack</font></strong>
-                {' '}
-                na
-                {' '}
-                <strong><font color="#1E90FF">Trybe </font></strong>
-                <em><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/betrybe/">@betrybe</a></em>
-                
-                : Unix Shell, Visual Studio Code, Git, GitHub, Html, JavaScript, Node.JS, Phyton, Front End e afins.
+                <strong><font color="#1E90FF">Desenvolvedor Web Full Stack</font></strong> pela <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/betrybe/">Trybe</a>:
               </li>
+              <ul>
+                <li>
+                  <strong>Módulo IV - Ciência da Computação:</strong><br />
+                  Conhecimentos em: Python, POO, Algoritmos e Complexidade, Estrutura de Dados e Resolução de Problemas.
+                </li>
+                <li>
+                  <strong>Módulo III - Back-End:</strong><br />
+                  Conhecimento em: Banco de Dados SQL e NoSQL, Node e ExpressJS, MVC, API, REST, JWT e File Upload, SOLID, ORM, Sockets e deploy com Heroku.
+                </li>
+                <li>
+                  <strong>Módulo II - Front-End:</strong><br />
+                  Conhecimentos em: React.JS com Componentes, Estados e Eventos, Componentes Controlados, Ciclo de Vida, Router, Testes RTL, Redux, ContextAPI e Hooks.
+                </li>
+                <li>
+                  <strong>Módulo I - Fundamentos do Dev Web:</strong><br />
+                  Conhecimentos em: Unix & Bash, Git & Internet, JavaScript e DOM, HTML & CSS Avançado e JS Avançado & Testes Unitários.
+                </li>
+              </ul>
             </ul>
           </article>
         </section>
