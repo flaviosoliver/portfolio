@@ -1,15 +1,16 @@
-import devFsoDark from '../images/devFsoDark.png';
-import ProjectLessonsLearned from '../images/ProjectLessonsLearned.png';
-import ProjectPlaygroundFunctions from '../images/ProjectPlaygroundFunctions.png';
-import ProjectFacebookSignup from '../images/ProjectFacebookSignup.png';
-import ProjectJsUnitTests from '../images/ProjectJsUnitTests.png';
-import ProjectJest from '../images/ProjectJest.png';
-import ProjectMemeGenerator from '../images/ProjectMemeGenerator.png';
-import ProjectPixelsArt from '../images/ProjectPixelsArt.png';
-import ProjectShoppingCart from '../images/ProjectShoppingCart.png';
-import ProjectTodoList from '../images/ProjectTodoList.png';
-import ProjectZooFunctions from '../images/ProjectZooFunctions.png';
-import Project from '../images/Project.png'
+import devFsoDark from '../assets/images/devFsoDark.png';
+import ProjectLessonsLearned from '../assets/images/ProjectLessonsLearned.png';
+import ProjectPlaygroundFunctions from '../assets/images/ProjectPlaygroundFunctions.png';
+import ProjectFacebookSignup from '../assets/images/ProjectFacebookSignup.png';
+import ProjectJsUnitTests from '../assets/images/ProjectJsUnitTests.png';
+import ProjectJest from '../assets/images/ProjectJest.png';
+import ProjectMemeGenerator from '../assets/images/ProjectMemeGenerator.png';
+import ProjectPixelsArt from '../assets/images/ProjectPixelsArt.png';
+import ProjectShoppingCart from '../assets/images/ProjectShoppingCart.png';
+import ProjectTodoList from '../assets/images/ProjectTodoList.png';
+import ProjectZooFunctions from '../assets/images/ProjectZooFunctions.png';
+import Project from '../assets/images/Project.png';
+import ProjectSeeMore from '../assets/images/ProjectSeeMore.png';
 
 export {
   devFsoDark,
@@ -23,5 +24,6 @@ export {
   ProjectShoppingCart,
   ProjectTodoList,
   ProjectZooFunctions,
-  Project
+  Project,
+  ProjectSeeMore,
 };
