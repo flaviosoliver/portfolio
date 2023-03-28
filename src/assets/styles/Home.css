@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@font-face {
+  font-family: TechnoBold;
+  src: url('../font/TECHNOB.TTF');
+}
+
+@font-face {
+  font-family: Tekton;
+  src: url('../font/TEKTON.TTF');
+}
+
+main {
+  margin: 10px 5px;
+}
+
+.content {
+  font-family: Ubuntu;
+  margin: 5px 0 10px 320px ;
+}
+
+.cover {
+  color: rgb(209, 209, 209);
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.cover h2, h3, h4, ul {
+  color: rgb(209, 209, 209);
+}
+
+.cover img {
+  width: 100%;
+}
+
+.article {
+  color: rgb(209, 209, 209);
+  font-family: Ubuntu;
+}
+
+.caption {
+  background-color: #000325;
+  background-image: linear-gradient(90deg, #000000 0%, #09090c 50%, #313030 100%);
+  border-radius: 30px;
+  color: rgb(209, 209, 209);
+  display: flex;
+  font-family: Tekton;
+  justify-content: flex-end;
+  margin: 0 5px 0 0;
+  padding: 5px;
+  text-align: right;
+}
+
+.caption-sub {
+  background-color: #000325;
+  background-image: linear-gradient(90deg, #1d1c1c 0%, #09090c 50%, #000000 100%);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.contact-container {
+  margin: 0 auto;
+  justify-self: center;
+}
+
+.recommendations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 217px);
+  grid-template-rows: auto;
+  justify-content: center;
+  padding: 20px 20px;
+}

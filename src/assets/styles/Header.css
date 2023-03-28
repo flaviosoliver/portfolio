@@ -1,0 +1,98 @@
+.header {
+  color: rgb(18, 18, 20);
+  display: flex;
+  flex-flow: column;
+  font-family: Ubuntu;
+  justify-content: space-between;
+  padding: 0 0 10px 0;
+}
+
+.header-container {
+  align-content: center;
+  width: auto;
+}
+
+.header-container nav {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.header-container a {
+  color: aliceblue;
+}
+
+.header-container a:hover {
+  background-color:#07063f;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+header {
+  background: rgb(0, 0, 0);
+  left: 0;
+  min-height: 60px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+header ul {
+  padding: 15px 10px 0 0;
+}
+
+header li {
+  border-left: 1px solid #ccc;
+}
+
+header li:first-child {
+  border: none;
+}
+
+header li a {
+  -webkit-transition: all 300ms ease;
+  color: #999;
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0 10px;
+  text-decoration: none;
+  transition: all 300ms ease;
+}
+
+header li a:hover {
+  color: #333;
+}
+
+input#control-nav {
+  left: -9999px;
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+}
+
+/* lists */
+.list-full,
+.list-full li,
+.list-auto,
+.list-auto li {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.list-auto,
+.list-auto li {
+  width: auto;
+}
+
+/* floats */
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
