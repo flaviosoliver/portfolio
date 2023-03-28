@@ -1,22 +1,15 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import Carousel from 'react-bootstrap/Carousel';
-import ProjectLessonsLearned from '../../images/ProjectLessonsLearned.png';
-import ProjectPlaygroundFunctions from '../../images/ProjectPlaygroundFunctions.png';
-import ProjectPixelsArt from '../../images/ProjectPixelsArt.png';
-import ProjectMemeGenerator from '../../images/ProjectMemeGenerator.png';
-import ProjectTodoList from '../../images/ProjectTodoList.png';
-import ProjectFacebookSignup from '../../images/ProjectFacebookSignup.png';
-import ProjectJsUnitTests from '../../images/ProjectJsUnitTests.png';
-import ProjectZooFunctions from '../../images/ProjectZooFunctions.png';
-import ProjectShoppingCart from '../../images/ProjectShoppingCart.png';
-import ProjectJest from '../../images/ProjectJest.png';
+import {
+  ProjectSeeMore, ProjectLessonsLearned, ProjectPlaygroundFunctions, ProjectPixelsArt, ProjectMemeGenerator, ProjectTodoList, ProjectFacebookSignup, ProjectJsUnitTests, ProjectZooFunctions, ProjectShoppingCart, ProjectJest,
+} from '../../services/ExportImages';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../css/Carousel.css';
+import '../../assets/styles/CarouselImg.css';
 
 export default function CarouselImg() {
   return (
-    <Carousel>
+    <Carousel className="carousel-img">
       <Carousel.Item>
         <HashLink to="/projetos">
           <img
@@ -153,6 +146,20 @@ export default function CarouselImg() {
           <Carousel.Caption className="img-slide img-slide-title">
             <h4>Fundamentos do Desenvolvimento Web - Jest</h4>
             <p>Projeto do Bloco 10 - Testes automatizados com Jest</p>
+          </Carousel.Caption>
+        </HashLink>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <HashLink to="/projetos">
+          <img
+            className="d-block w-100 img-slide"
+            src={ProjectSeeMore}
+            alt="Veja mais..."
+          />
+          <Carousel.Caption className="img-slide img-slide-title">
+            <h4>Acesse aqui</h4>
+            <p>Projetos e seus repositórios</p>
           </Carousel.Caption>
         </HashLink>
       </Carousel.Item>

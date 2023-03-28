@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
-import './Header.css';
+import '../../assets/styles/Header.css';
 
 export default function Header() {
   return (

@@ -1,7 +1,9 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedinIn, faGithub, faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import '../Aside/Aside.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faLinkedinIn, faGithub, faFacebookF, faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
+import '../../assets/styles/Aside.css';
 
 export default function Nav() {
   return (
