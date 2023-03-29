@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import { Header, Footer, ProjectCard } from '../../components';
-import * as dataAPI from '../../services/dataAPI'
-import '../Projects/Projects.css';
-import '../../components/Footer/Footer.css';
+import * as dataAPI from '../../services/dataAPI';
+import '../../assets/styles/Projects.css';
+import '../../assets/styles/Footer.css';
 import {
   devFsoDark,
 } from '../../services/ExportImages';
@@ -14,16 +14,17 @@ export default class Projects extends Component {
 
     this.state = {
       projects: [],
-    }
+    };
   }
+
   componentDidMount() {
-    dataAPI.getAllProjects().then((value => {
-      this.setState({ projects: value })
-    }))
+    dataAPI.getAllProjects().then(((value) => {
+      this.setState({ projects: value });
+    }));
   }
 
   render() {
-    const { projects } = this.state
+    const { projects } = this.state;
     return (
       <main className="project-list">
         <header className="header">
@@ -43,11 +44,11 @@ export default class Projects extends Component {
         </h1>
         <section className="project-grid">
           {projects.map((project) => (
-            <ProjectCard key={project.id} project={project}/>
+            <ProjectCard key={project.id} project={project} />
           ))}
         </section>
         <Footer />
       </main>
-    )
+    );
   }
 }

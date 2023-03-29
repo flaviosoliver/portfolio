@@ -1,4 +1,4 @@
-input[type=text], input[type=file], select, textarea {
+input[type=text], [type=email], input[type=file], select, textarea {
   border: 0;
   border-radius: 4px; 
   box-sizing: border-box;
@@ -32,6 +32,21 @@ input[type=submit]:hover {
   margin: auto;
   justify-content: center;
   display: flex;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.form-group-msg-error {
+  color: red;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.contact-iframe {
+  border: 0
 }
 
 .submit-container {

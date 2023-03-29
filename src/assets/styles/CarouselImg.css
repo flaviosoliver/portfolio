@@ -39,3 +39,11 @@
 .carousel-indicators {
   z-index: 1;
 }
+
+@media screen and (min-width: 767px) {
+  .carousel-img {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+  }
+}

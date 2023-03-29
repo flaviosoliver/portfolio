@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: TechnoBold;
-  src: url('../../font/TECHNOB.TTF');
+  src: url('../font/TECHNOB.TTF');
 }
 
 @font-face {
   font-family: Tekton;
-  src: url('../../font/TEKTON.TTF');
+  src: url('../font/TEKTON.TTF');
 }
 
 main {
@@ -61,7 +61,6 @@ main {
 
 .contact-container {
   margin: 0 auto;
-  display: flex;
   justify-self: center;
 }
 

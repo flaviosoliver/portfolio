@@ -1,0 +1,34 @@
+{
+  "root": true,
+  "extends": [
+    "airbnb",
+    "airbnb/hooks"
+  ],
+  "ignorePatterns": [
+    "src/reportWebVitals.js", "reportWebVitals.js"
+  ],
+  "rules": {
+    "max-len": "off",
+    "no-console": "off",
+    "no-alert": "off",
+    "linebreak-style": 0,
+    "import/no-extraneous-dependencies": ["error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": true,
+        "peerDependencies": true
+      }
+    ],
+    "react/jsx-filename-extension": [1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/react-in-jsx-scope": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  }
+}

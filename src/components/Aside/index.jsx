@@ -1,8 +1,8 @@
 import React from 'react';
 import Nav from '../Nav';
-import devFsoLight from '../../images/devFsoLight.png';
-import profile from '../../images/profile.jpg';
-import './Aside.css';
+import devFsoLight from '../../assets/images/devFsoLight.png';
+import profile from '../../assets/images/profile.jpg';
+import '../../assets/styles/Aside.css';
 
 export default function Aside() {
   return (
