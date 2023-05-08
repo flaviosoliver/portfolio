@@ -6,7 +6,6 @@ import '../../assets/styles/Header.css';
 export default function Header() {
   return (
     <header className="header-container">
-
       <input type="checkbox" id="control-nav" />
       <label htmlFor="control-nav" className="control-nav" />
       <label htmlFor="control-nav" className="control-nav-close" />
@@ -14,21 +13,29 @@ export default function Header() {
       <nav className="float-r">
         <ul className="list-auto">
           <li>
-            <HashLink classeName="nav-header-items" to="/#sobre">Sobre Mim</HashLink>
+            <HashLink className="nav-header-items" to="/#sobre">
+              Sobre Mim
+            </HashLink>
           </li>
           <li>
-            <HashLink classeName="nav-header-items" to="/#habilidades">Habilidades</HashLink>
-
+            <HashLink className="nav-header-items" to="/#habilidades">
+              Habilidades
+            </HashLink>
           </li>
           <li>
-            <HashLink classeName="nav-header-items" to="/#projetos">Projetos</HashLink>
+            <HashLink className="nav-header-items" to="/#projetos">
+              Projetos
+            </HashLink>
           </li>
           <li>
-            <HashLink classeName="nav-header-items" to="/#conteudo">Recomendações</HashLink>
-
+            <HashLink className="nav-header-items" to="/#conteudo">
+              Recomendações
+            </HashLink>
           </li>
           <li>
-            <HashLink classeName="nav-header-items" to="#contato">Contato</HashLink>
+            <HashLink className="nav-header-items" to="#contato">
+              Contato
+            </HashLink>
           </li>
         </ul>
       </nav>

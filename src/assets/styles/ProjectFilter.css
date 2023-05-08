@@ -1,0 +1,29 @@
+.project-filter-content {
+  padding: 25px 10px 10px 10px;
+  color: rgb(209, 209, 209);
+}
+
+.custom-filter-select {
+  width: 100%;
+  padding-bottom: 10px;
+  color: #222121;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-btn-area {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.project-filter-form-label {
+  font-weight: bold;
+}
+
+.project-btn-filter,
+.project-btn-clear {
+  margin: 0 5px;
+}

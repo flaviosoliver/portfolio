@@ -1,7 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faLinkedinIn, faGithub, faFacebookF, faInstagram,
+  faLinkedinIn,
+  faGithub,
+  faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 import '../../assets/styles/Aside.css';
 
@@ -29,15 +31,6 @@ export default function Nav() {
           title="GitHub"
         >
           <FontAwesomeIcon icon={faGithub} size="2x" alt="Github" />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          className="nav-aside-items"
-          href="https://www.facebook.com/flaviosoliver/"
-          title="Facebook"
-        >
-          <FontAwesomeIcon icon={faFacebookF} size="2x" alt="Facebook" />
         </a>
         <a
           target="_blank"

@@ -1,54 +1,40 @@
-import React, { Component } from 'react';
+/* eslint-disable */
+import React, { useEffect, useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
-import { Header, Footer, ProjectCard } from '../../components';
-import * as dataAPI from '../../services/dataAPI';
+import { Footer, ProjectList, ProjectFilter } from '../../components';
 import '../../assets/styles/Projects.css';
 import '../../assets/styles/Footer.css';
-import {
-  devFsoDark,
-} from '../../services/ExportImages';
+import { devFsoDark } from '../../services/ExportImages';
+import * as dataAPI from '../../services/dataAPI';
 
-export default class Projects extends Component {
-  constructor() {
-    super();
+export default function Projects() {
+  const [projects, setProjects] = useState([]);
 
-    this.state = {
-      projects: [],
-    };
-  }
+  useEffect(() => {
+    setProjects(dataAPI.getAllProjects());
+  }, []);
 
-  componentDidMount() {
-    dataAPI.getAllProjects().then(((value) => {
-      this.setState({ projects: value });
-    }));
-  }
-
-  render() {
-    const { projects } = this.state;
-    return (
-      <main className="project-list">
-        <header className="header">
-          <div className="header-logo">
-            <HashLink to="/">
-              <img
-                src={devFsoDark}
-                alt="Logo"
-                title="Ir para Home"
-              />
-            </HashLink>
-          </div>
-          <Header />
-        </header>
-        <h1>
-          Projetos Desenvolvidos no decorrer do Curso de Dev Web Full Stack da Trybe.
-        </h1>
-        <section className="project-grid">
-          {projects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
-          ))}
-        </section>
-        <Footer />
-      </main>
-    );
-  }
+  return (
+    <main className="project-list">
+      <header className="header">
+        <div className="header-logo">
+          <HashLink to="/">
+            <img src={devFsoDark} alt="Ir para Home" title="Ir para Home" />
+          </HashLink>
+        </div>
+      </header>
+      <h1>
+        Aqui você verá projetos desenvolvidos no decorrer do Curso de Dev Web
+        Full Stack da Trybe e projetos pessoais, com objetivo de estudo ou
+        alguma aplicação para resolução de necessidades.
+      </h1>
+      <section className="project-filter">
+        <ProjectFilter projects={projects} onFilter={setProjects} />
+      </section>
+      <section className="project-grid">
+        <ProjectList projects={projects} />
+      </section>
+      <Footer />
+    </main>
+  );
 }

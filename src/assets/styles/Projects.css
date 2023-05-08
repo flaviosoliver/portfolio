@@ -14,11 +14,11 @@
 
 .project-list h1 {
   color: rgb(209, 209, 209);
-  font-size: min(max(16px, 4vw), 22px);
+  font-size: min(max(16px, 4vw), 18px);
   justify-content: center;
   margin: 0 auto;
   text-align: center;
-  width: 50%;
+  padding-top: 10%;
 }
 
 .project-grid {
@@ -87,4 +87,9 @@
 .project {
   display: flex;
   justify-content: center;
+}
+
+.custom-loading {
+  display: flex;
+  margin: 50px auto 0 auto;
 }

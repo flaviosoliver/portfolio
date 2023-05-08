@@ -1,30 +1,48 @@
 {
   "root": true,
-  "extends": [
-    "airbnb",
-    "airbnb/hooks"
-  ],
-  "ignorePatterns": [
-    "src/reportWebVitals.js", "reportWebVitals.js"
-  ],
+  "extends": ["airbnb", "airbnb/hooks", "plugin:prettier/recommended"],
+  "ignorePatterns": ["src/reportWebVitals.js", "reportWebVitals.js"],
+  "plugins": ["prettier"],
   "rules": {
     "max-len": "off",
     "no-console": "off",
     "no-alert": "off",
     "linebreak-style": 0,
-    "import/no-extraneous-dependencies": ["error",
+    "import/no-extraneous-dependencies": [
+      "error",
       {
         "devDependencies": true,
         "optionalDependencies": true,
         "peerDependencies": true
       }
     ],
-    "react/jsx-filename-extension": [1,
+    "react/jsx-filename-extension": [
+      1,
       {
         "extensions": [".js", ".jsx"]
       }
     ],
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "jsx-quotes": ["error", "prefer-double"],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "object-curly-newline": [
+      "warn",
+      {
+        "ObjectExpression": "always",
+        "ObjectPattern": { "multiline": true },
+        "ImportDeclaration": {
+          "minProperties": 3,
+          "consistent": false,
+          "multiline": true
+        },
+        "ExportDeclaration": { "multiline": true, "minProperties": 3 }
+      }
+    ]
   },
   "env": {
     "browser": true,
