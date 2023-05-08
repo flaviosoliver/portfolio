@@ -21,10 +21,9 @@ export default function Projects() {
       <header className="header">
         <div className="header-logo">
           <HashLink to="/">
-            <img src={devFsoDark} alt="Logo" title="Ir para Home" />
+            <img src={devFsoDark} alt="Ir para Home" title="Ir para Home" />
           </HashLink>
         </div>
-        <Header />
       </header>
       <h1>
         Aqui você verá projetos desenvolvidos no decorrer do Curso de Dev Web
