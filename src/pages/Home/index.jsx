@@ -33,13 +33,14 @@ export default function Home() {
               <br />
             </h3>
             <p>
-              Brasileiro, nascido em Brasília-DF e{' '}
+              Brasileiro, nascido em Brasília-DF, mas{' '}
               <strong>
-                <font color="#1E90FF">baiano de sangue, raiz e coração.</font>
+                <font color="#1E90FF">baiano de sangue, raiz e coração,</font>
               </strong>{' '}
-              Moro em Barreiras, região Oeste da Bahia, onde sigo cada vez
-              apaixonado por tecnologia e em busca de novidades na área. Com o
-              sonho de me tornar Desenvolvedor, embarquei junto a{' '}
+              além de pai do Samuquinha, um carinha incrível de 5 anos e grande
+              parceirinho. Moro em Barreiras, região Oeste da Bahia, onde sigo
+              cada vez apaixonado por tecnologia e em busca de novidades na
+              área. Com o sonho de me tornar Desenvolvedor, embarquei junto a{' '}
               <strong>
                 <font color="#1E90FF">Trybe</font>
               </strong>{' '}
@@ -96,6 +97,17 @@ export default function Home() {
               tratamento de situações legadas, scripts de manutenção no banco de
               dados, melhorias em processos internos e documentação da
               aplicação.
+            </p>
+            <br />
+            <p>
+              Confira meu currículo{' '}
+              <a
+                href="https://drive.google.com/drive/folders/1mwPSo78CW0NNhA0aJdRcXOcK9ROiTbr4"
+                target="_blank"
+                rel="noreferrer"
+              >
+                aqui.
+              </a>
             </p>
             <br />
           </article>
