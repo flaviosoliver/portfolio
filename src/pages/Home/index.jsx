@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Aside, Header, CarouselImg, Footer, ContactForm,
+  Aside,
+  Header,
+  CarouselImg,
+  Footer,
+  ContactForm,
 } from '../../components';
 import bannerPortfolioDark from '../../assets/images/bannerPortfolioDark.png';
 import '../../assets/styles/Home.css';
@@ -25,55 +29,73 @@ export default function Home() {
           <article>
             <br />
             <h3 id="sobre">
-              <font className="caption">
-                Sobre mim:
-              </font>
+              <font className="caption">Sobre mim:</font>
               <br />
             </h3>
             <p>
-              Brasileiro, nascido em Brasília-DF e
-              {' '}
-              <strong><font color="#1E90FF">baiano de sangue, raiz e coração.</font></strong>
-              {' '}
-              Moro em Barreiras, região Oeste da Bahia, onde sigo cada vez  apaixonado por tecnologia e em busca de novidades na área. Com o sonho de me tornar Desenvolvedor, embarquei junto a
-              {' '}
-              <strong><font color="#1E90FF">Trybe</font></strong>
-              {' '}
-              em Junho de 2020, fazendo desse, o pontapé inicial nessa longa caminhada em busca de muito conhecimento e conquistas.
+              Brasileiro, nascido em Brasília-DF e{' '}
+              <strong>
+                <font color="#1E90FF">baiano de sangue, raiz e coração.</font>
+              </strong>{' '}
+              Moro em Barreiras, região Oeste da Bahia, onde sigo cada vez
+              apaixonado por tecnologia e em busca de novidades na área. Com o
+              sonho de me tornar Desenvolvedor, embarquei junto a{' '}
+              <strong>
+                <font color="#1E90FF">Trybe</font>
+              </strong>{' '}
+              em Junho de 2020, fazendo desse, o pontapé inicial nessa longa
+              caminhada em busca de muito conhecimento e conquistas.
               <br />
-              Já fui servidor público concursado lotado no TRE-BA, com experiência em suporte de TI em lojas comerciais, incluindo montagem, manutenção e configuração de microcomputadores e redes, professor de Informática no SESI-BA, além do desempenho de funções nas áreas Administrativas e Departamentos de Informática.
+              Já fui servidor público concursado lotado no TRE-BA, com
+              experiência em suporte de TI em lojas comerciais, incluindo
+              montagem, manutenção e configuração de microcomputadores e redes,
+              professor de Informática no SESI-BA, além do desempenho de funções
+              nas áreas Administrativas e Departamentos de Informática.
               <br />
-              Com dois anos de experiência profissional como Desenvolvedor, fui integrante do time de desenvolvimento de uma ferramenta de comunicação na EdTech brasileira
-              {' '}
-              <strong>amais educação</strong>
-              ,
-              {' '}
-              <a target="_blank" href="https://www.amaiseducacao.com.br/solucoes/agendamais/" rel="noreferrer">Agenda+. </a>
-              Onde através de
-              {' '}
-              <strong><font color="#1E90FF">metodologias ágeis Scrum e Kanban</font></strong>
-              , empregamos como linguagem de desenvolvimento
-              {' '}
-              <strong><font color="#1E90FF">TypeScript</font></strong>
-              , front-end em
-              {' '}
-              <strong><font color="#1E90FF">Angular</font></strong>
-              , back-end em
-              {' '}
-              <strong><font color="#1E90FF">NodeJS</font></strong>
-              {' '}
-              com
-              {' '}
-              <strong><font color="#1E90FF">NestJS</font></strong>
-              , ODM com
-              {' '}
-              <strong><font color="#1E90FF">Mongoose</font></strong>
-              {' '}
-              e banco de dados não relacional (NoSQL)
-              {' '}
-              <strong><font color="#1E90FF">MongoDb</font></strong>
-              .
-              Nesse período pude contribuir diretamente na melhoria do código, tratamento de situações legadas, scripts de manutenção no banco de dados, melhorias em processos internos e documentação da aplicação.
+              Com dois anos de experiência profissional como Desenvolvedor, fui
+              integrante do time de desenvolvimento de uma ferramenta de
+              comunicação na EdTech brasileira <strong>
+                amais educação
+              </strong>,{' '}
+              <a
+                target="_blank"
+                href="https://www.amaiseducacao.com.br/solucoes/agendamais/"
+                rel="noreferrer"
+              >
+                Agenda+.{' '}
+              </a>
+              Onde através de{' '}
+              <strong>
+                <font color="#1E90FF">metodologias ágeis Scrum e Kanban</font>
+              </strong>
+              , empregamos como linguagem de desenvolvimento{' '}
+              <strong>
+                <font color="#1E90FF">TypeScript</font>
+              </strong>
+              , front-end em{' '}
+              <strong>
+                <font color="#1E90FF">Angular</font>
+              </strong>
+              , back-end em{' '}
+              <strong>
+                <font color="#1E90FF">NodeJS</font>
+              </strong>{' '}
+              com{' '}
+              <strong>
+                <font color="#1E90FF">NestJS</font>
+              </strong>
+              , ODM com{' '}
+              <strong>
+                <font color="#1E90FF">Mongoose</font>
+              </strong>{' '}
+              e banco de dados não relacional (NoSQL){' '}
+              <strong>
+                <font color="#1E90FF">MongoDb</font>
+              </strong>
+              . Nesse período pude contribuir diretamente na melhoria do código,
+              tratamento de situações legadas, scripts de manutenção no banco de
+              dados, melhorias em processos internos e documentação da
+              aplicação.
             </p>
             <br />
           </article>
@@ -81,50 +103,67 @@ export default function Home() {
         <section>
           <article>
             <h3 id="habilidades">
-              <font className="caption">
-                Habilidades - Soft e Hard Skills:
-              </font>
+              <font className="caption">Habilidades - Soft e Hard Skills:</font>
               <br />
             </h3>
             <ul>
               <li>
-                <strong><font color="#1E90FF">Gosto de aprender novos conhecimentos;</font></strong>
+                <strong>
+                  <font color="#1E90FF">
+                    Gosto de aprender novos conhecimentos;
+                  </font>
+                </strong>
               </li>
               <li>Foco;</li>
               <li>Facilidade de aprendizado;</li>
               <li>
-                <strong><font color="#1E90FF">Proatividade;</font></strong>
+                <strong>
+                  <font color="#1E90FF">Proatividade;</font>
+                </strong>
               </li>
               <li>Liderança;</li>
               <li>Conhecimento na área de Suporte de TI;</li>
               <li>Inglês básico (compreensão de texto escrito);</li>
               <li>
-                <strong><font color="#1E90FF">Desenvolvedor Web Full Stack</font></strong>
-                {' '}
+                <strong>
+                  <font color="#1E90FF">Desenvolvedor Web Full Stack</font>
+                </strong>{' '}
                 pela
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/betrybe/">Trybe</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/betrybe/"
+                >
+                  Trybe
+                </a>
                 :
               </li>
               <ul>
                 <li>
                   <strong>Módulo IV - Ciência da Computação:</strong>
                   <br />
-                  Conhecimentos em: Python, POO, Algoritmos e Complexidade, Estrutura de Dados e Resolução de Problemas.
+                  Conhecimentos em: Python, POO, Algoritmos e Complexidade,
+                  Estrutura de Dados e Resolução de Problemas.
                 </li>
                 <li>
                   <strong>Módulo III - Back-End:</strong>
                   <br />
-                  Conhecimento em: Banco de Dados SQL e NoSQL, Node e ExpressJS, MVC, API, REST, JWT e File Upload, SOLID, ORM, Sockets e deploy com Heroku.
+                  Conhecimento em: Banco de Dados SQL e NoSQL, Node e ExpressJS,
+                  MVC, API, REST, JWT e File Upload, SOLID, ORM, Sockets e
+                  deploy com Heroku.
                 </li>
                 <li>
                   <strong>Módulo II - Front-End:</strong>
                   <br />
-                  Conhecimentos em: React.JS com Componentes, Estados e Eventos, Componentes Controlados, Ciclo de Vida, Router, Testes RTL, Redux, ContextAPI e Hooks.
+                  Conhecimentos em: React.JS com Componentes, Estados e Eventos,
+                  Componentes Controlados, Ciclo de Vida, Router, Testes RTL,
+                  Redux, ContextAPI e Hooks.
                 </li>
                 <li>
                   <strong>Módulo I - Fundamentos do Dev Web:</strong>
                   <br />
-                  Conhecimentos em: Unix & Bash, Git & Internet, JavaScript e DOM, HTML & CSS Avançado e JS Avançado & Testes Unitários.
+                  Conhecimentos em: Unix & Bash, Git & Internet, JavaScript e
+                  DOM, HTML & CSS Avançado e JS Avançado & Testes Unitários.
                 </li>
               </ul>
             </ul>
@@ -133,16 +172,16 @@ export default function Home() {
         <section className="article">
           <article>
             <h3 id="projetos">
-              <font className="caption">
-                Projetos Desenvolvidos:
-              </font>
+              <font className="caption">Projetos Desenvolvidos:</font>
               <br />
             </h3>
             <p>
               {' '}
-              <Link to="/projetos">Veja aqui</Link>
-              {' '}
-              projetos desenvolvidos para estudo, onde é possível ver cada repositório, as implementações realizadas conforme cada tecnologia tratada e objetivos alcançados de acordo com a proposta lançada e seus requisitos aferidos por testes automatizados.
+              <Link to="/projetos">Veja aqui</Link> projetos desenvolvidos para
+              estudo, onde é possível ver cada repositório, as implementações
+              realizadas conforme cada tecnologia tratada e objetivos alcançados
+              de acordo com a proposta lançada e seus requisitos aferidos por
+              testes automatizados.
             </p>
             <CarouselImg className="carousel-img" />
           </article>
@@ -159,53 +198,96 @@ export default function Home() {
             <div className="recommendations">
               <div className="card-recommendations">
                 <h4>
-                  <font className="caption-sub">
-                    Sites:
-                  </font>
+                  <font className="caption-sub">Sites:</font>
                   <br />
                 </h4>
                 <ul>
                   <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://canaltech.com.br/">Canal Tech</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://canaltech.com.br/"
+                    >
+                      Canal Tech
+                    </a>
                   </li>
                   <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://olhardigital.com.br/">Olhar Digital</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://olhardigital.com.br/"
+                    >
+                      Olhar Digital
+                    </a>
                   </li>
                   <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://sempreupdate.com.br/">Sempre Update</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://sempreupdate.com.br/"
+                    >
+                      Sempre Update
+                    </a>
                   </li>
                   <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://tableless.com.br/">Tableless</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://tableless.com.br/"
+                    >
+                      Tableless
+                    </a>
                   </li>
                 </ul>
               </div>
               <div className="card-recommendations">
                 <h4>
-                  <font className="caption-sub">
-                    Canais do Youtube:
-                  </font>
+                  <font className="caption-sub">Canais do Youtube:</font>
                   <br />
                 </h4>
                 <ul>
                   <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/codigofontetv">Código Fonte TV</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.youtube.com/c/codigofontetv"
+                    >
+                      Código Fonte TV
+                    </a>
                   </li>
                   <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/FabioAkita1990">Fabio Akita</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.youtube.com/c/FabioAkita1990"
+                    >
+                      Fabio Akita
+                    </a>
                   </li>
                   <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/FilipeDeschamps"> Filipe Deschamps</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.youtube.com/c/FilipeDeschamps"
+                    >
+                      {' '}
+                      Filipe Deschamps
+                    </a>
                   </li>
                   <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/Programadorbr">Programador Br</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.youtube.com/c/Programadorbr"
+                    >
+                      Programador Br
+                    </a>
                   </li>
                 </ul>
               </div>
               <div className="card-recommendations">
                 <h4>
-                  <font className="caption-sub">
-                    PodCasts Spotify:
-                  </font>
+                  <font className="caption-sub">PodCasts Spotify:</font>
                   <br />
                 </h4>
                 <ul>
@@ -332,20 +414,36 @@ export default function Home() {
               </div>
               <div className="card-recommendations">
                 <h4>
-                  <font className="caption-sub">
-                    Para Sorrir:
-                  </font>
+                  <font className="caption-sub">Para Sorrir:</font>
                   <br />
                 </h4>
                 <ul>
                   <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_compiler._/">_compiler._</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.instagram.com/_compiler._/"
+                    >
+                      _compiler._
+                    </a>
                   </li>
                   <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.vidadeprogramador.com.br/">Vida de Programador</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.vidadeprogramador.com.br/"
+                    >
+                      Vida de Programador
+                    </a>
                   </li>
                   <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://vidadesuporte.com.br/">Vida de Suporte</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://vidadesuporte.com.br/"
+                    >
+                      Vida de Suporte
+                    </a>
                   </li>
                 </ul>
               </div>

@@ -2,7 +2,17 @@ import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import Carousel from 'react-bootstrap/Carousel';
 import {
-  ProjectSeeMore, ProjectLessonsLearned, ProjectPlaygroundFunctions, ProjectPixelsArt, ProjectMemeGenerator, ProjectTodoList, ProjectFacebookSignup, ProjectJsUnitTests, ProjectZooFunctions, ProjectShoppingCart, ProjectJest,
+  ProjectSeeMore,
+  ProjectLessonsLearned,
+  ProjectPlaygroundFunctions,
+  ProjectPixelsArt,
+  ProjectMemeGenerator,
+  ProjectTodoList,
+  ProjectFacebookSignup,
+  ProjectJsUnitTests,
+  ProjectZooFunctions,
+  ProjectShoppingCart,
+  ProjectJest,
 } from '../../services/ExportImages';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../assets/styles/CarouselImg.css';
@@ -33,7 +43,10 @@ export default function CarouselImg() {
           />
           <Carousel.Caption className="img-slide img-slide-title">
             <h4>Fundamentos do Desenvolvimento Web - Playground Functions</h4>
-            <p>Projeto do Bloco 4 - Introdução à JavaScript e Lógica de Programação</p>
+            <p>
+              Projeto do Bloco 4 - Introdução à JavaScript e Lógica de
+              Programação
+            </p>
           </Carousel.Caption>
         </HashLink>
       </Carousel.Item>
@@ -103,7 +116,10 @@ export default function CarouselImg() {
           />
           <Carousel.Caption className="img-slide img-slide-title">
             <h4>Fundamentos do Desenvolvimento Web - JavaScript Unit Tests</h4>
-            <p>Projeto do Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários</p>
+            <p>
+              Projeto do Bloco 7 - Introdução à JavaScript ES6 e Testes
+              Unitários
+            </p>
           </Carousel.Caption>
         </HashLink>
       </Carousel.Item>
