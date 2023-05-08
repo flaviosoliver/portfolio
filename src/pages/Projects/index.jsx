@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React, { useEffect, useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
-import { Header, Footer, ProjectList, ProjectFilter } from '../../components';
+import { Footer, ProjectList, ProjectFilter } from '../../components';
 import '../../assets/styles/Projects.css';
 import '../../assets/styles/Footer.css';
 import { devFsoDark } from '../../services/ExportImages';
@@ -13,8 +13,6 @@ export default function Projects() {
   useEffect(() => {
     setProjects(dataAPI.getAllProjects());
   }, []);
-
-  console.log('render página');
 
   return (
     <main className="project-list">

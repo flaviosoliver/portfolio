@@ -2,14 +2,11 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable import/no-cycle */
 import React, { useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
 import { ProjectCard } from '../index';
 import '../../assets/styles/ProjectList.css';
 
 export default function ProjectList({ projects }) {
   const [resolvedProjects, setResolvedProjects] = useState([]);
-  console.log('render lista');
-  console.log('projects na lista', projects);
 
   useEffect(() => {
     if (Array.isArray(projects)) {
@@ -17,7 +14,6 @@ export default function ProjectList({ projects }) {
     } else {
       projects.then((data) => setResolvedProjects(data));
     }
-    console.log('useEffect', projects);
   }, [projects]);
 
   return (
