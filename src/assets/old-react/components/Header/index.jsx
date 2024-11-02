@@ -1,6 +1,8 @@
+/* eslint import/no-cycle: [1, { maxDepth: 1 }] */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
+import { ColorMode } from '../index';
 import '../../assets/styles/Header.css';
 
 export default function Header() {
@@ -36,6 +38,9 @@ export default function Header() {
             <HashLink className="nav-header-items" to="#contato">
               Contato
             </HashLink>
+          </li>
+          <li>
+            <ColorMode />
           </li>
         </ul>
       </nav>

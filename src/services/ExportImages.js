@@ -11,6 +11,7 @@ import ProjectTodoList from '../assets/images/ProjectTodoList.png';
 import ProjectZooFunctions from '../assets/images/ProjectZooFunctions.png';
 import Project from '../assets/images/Project.png';
 import ProjectSeeMore from '../assets/images/ProjectSeeMore.png';
+import profileNew from '../assets/images/profileNew.jpg';
 
 export {
   devFsoDark,
@@ -26,4 +27,5 @@ export {
   ProjectZooFunctions,
   Project,
   ProjectSeeMore,
+  profileNew,
 };

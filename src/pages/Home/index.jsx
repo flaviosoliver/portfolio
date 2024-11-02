@@ -1,474 +1,119 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+/* eslint-disable */
+/* eslint-disable jsx-a11y/control-has-associated-label */
+/* eslint-disable react/button-has-type */
+/* eslint-disable react/jsx-no-comment-textnodes */
+import React, { useEffect } from 'react';
+import '../../assets/styles/css/Home.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  Aside,
-  Header,
-  CarouselImg,
-  Footer,
-  ContactForm,
-} from '../../components';
-import bannerPortfolioDark from '../../assets/images/bannerPortfolioDark.png';
-import '../../assets/styles/Home.css';
-import '../../assets/styles/Mobile.css';
+  faLinkedinIn,
+  faGithub,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
+import {
+  faHouse,
+  faFolder,
+  faAddressCard,
+  faEnvelope,
+} from '@fortawesome/free-solid-svg-icons';
+import { ContactForm, Projects } from '../../components/';
+import { profileNew } from '../../services/ExportImages';
+import '../../assets/js/main';
+import { navList, panel } from '../../assets/js/util';
 
 // https://forms.gle/fPJtoVA4wUr2exSUA
 export default function Home() {
+  useEffect(() => {
+    const nav = document.querySelector('#nav');
+    navList(nav);
+
+    const panelElement = document.querySelector('#main');
+    panel(panelElement, { hideOnClick: true, side: 'left' });
+  }, []);
   return (
-    <main>
-      <aside className="aside">
-        <Aside />
-      </aside>
-      <div className="content">
-        <header className="header">
-          <Header />
-        </header>
-        <div className="cover">
-          <img src={bannerPortfolioDark} alt="devDark" />
-        </div>
-        <section className="article">
-          <article>
-            <br />
-            <h3 id="sobre">
-              <font className="caption">Sobre mim:</font>
-              <br />
-            </h3>
-            <p>
-              Brasileiro, nascido em Brasília-DF, mas{' '}
-              <strong>
-                <font color="#1E90FF">baiano de sangue, raiz e coração,</font>
-              </strong>{' '}
-              além de pai do Samuquinha, um carinha incrível de 5 anos e grande
-              parceirinho. Moro em Barreiras, região Oeste da Bahia, onde sigo
-              cada vez apaixonado por tecnologia e em busca de novidades na
-              área. Com o sonho de me tornar Desenvolvedor, embarquei junto a{' '}
-              <strong>
-                <font color="#1E90FF">Trybe</font>
-              </strong>{' '}
-              em Junho de 2020, fazendo desse, o pontapé inicial nessa longa
-              caminhada em busca de muito conhecimento e conquistas.
-              <br />
-              Já fui servidor público concursado lotado no TRE-BA, com
-              experiência em suporte de TI em lojas comerciais, incluindo
-              montagem, manutenção e configuração de microcomputadores e redes,
-              professor de Informática no SESI-BA, além do desempenho de funções
-              nas áreas Administrativas e Departamentos de Informática.
-              <br />
-              Com dois anos de experiência profissional como Desenvolvedor, fui
-              integrante do time de desenvolvimento de uma ferramenta de
-              comunicação na EdTech brasileira <strong>
-                amais educação
-              </strong>,{' '}
+    <>
+      <nav id="nav">
+        <a href="#home" className="" title="Home">
+          <FontAwesomeIcon icon={faHouse} />
+        </a>
+        <a href="#projects" className="" title="Projetos">
+          <FontAwesomeIcon icon={faFolder} />
+        </a>
+        <a href="#aboutme" className="" title="Sobre mim">
+          <FontAwesomeIcon icon={faAddressCard} />
+        </a>
+        <a href="#contact" className="" title="Contato">
+          <FontAwesomeIcon icon={faEnvelope} />
+        </a>
+      </nav>
+      <div id="main">
+        <article id="home" className="panel intro">
+          <header>
+            <h1>Flávio Oliveira</h1>
+            <p>Desenvolvedor Full Stack</p>
+            <p className="links-area">
               <a
                 target="_blank"
-                href="https://www.amaiseducacao.com.br/solucoes/agendamais/"
-                rel="noreferrer"
+                rel="noopener noreferrer"
+                className="nav-aside-items"
+                href="https://www.linkedin.com/in/flaviosoliver/"
+                title="Linkedin"
               >
-                Agenda+.{' '}
+                <FontAwesomeIcon icon={faLinkedinIn} size="2x" alt="Linkedin" />
               </a>
-              Onde através de{' '}
-              <strong>
-                <font color="#1E90FF">metodologias ágeis Scrum e Kanban</font>
-              </strong>
-              , empregamos como linguagem de desenvolvimento{' '}
-              <strong>
-                <font color="#1E90FF">TypeScript</font>
-              </strong>
-              , front-end em{' '}
-              <strong>
-                <font color="#1E90FF">Angular</font>
-              </strong>
-              , back-end em{' '}
-              <strong>
-                <font color="#1E90FF">NodeJS</font>
-              </strong>{' '}
-              com{' '}
-              <strong>
-                <font color="#1E90FF">NestJS</font>
-              </strong>
-              , ODM com{' '}
-              <strong>
-                <font color="#1E90FF">Mongoose</font>
-              </strong>{' '}
-              e banco de dados não relacional (NoSQL){' '}
-              <strong>
-                <font color="#1E90FF">MongoDb</font>
-              </strong>
-              . Nesse período pude contribuir diretamente na melhoria do código,
-              tratamento de situações legadas, scripts de manutenção no banco de
-              dados, melhorias em processos internos e documentação da
-              aplicação.
-            </p>
-            <br />
-            <p>
-              Confira meu currículo{' '}
               <a
-                href="https://drive.google.com/drive/folders/1mwPSo78CW0NNhA0aJdRcXOcK9ROiTbr4"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
+                className="nav-aside-items"
+                href="https://github.com/flaviosoliver/"
+                title="GitHub"
               >
-                aqui.
+                <FontAwesomeIcon icon={faGithub} size="2x" alt="Github" />
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-aside-items"
+                href="https://www.instagram.com/flaviosoliver.dev/"
+                title="Instagram"
+              >
+                <FontAwesomeIcon icon={faInstagram} size="2x" alt="Instagram" />
               </a>
             </p>
-            <br />
-          </article>
-        </section>
-        <section>
-          <article>
-            <h3 id="habilidades">
-              <font className="caption">Habilidades - Soft e Hard Skills:</font>
-              <br />
-            </h3>
-            <ul>
-              <li>
-                <strong>
-                  <font color="#1E90FF">
-                    Gosto de aprender novos conhecimentos;
-                  </font>
-                </strong>
-              </li>
-              <li>Foco;</li>
-              <li>Facilidade de aprendizado;</li>
-              <li>
-                <strong>
-                  <font color="#1E90FF">Proatividade;</font>
-                </strong>
-              </li>
-              <li>Liderança;</li>
-              <li>Conhecimento na área de Suporte de TI;</li>
-              <li>Inglês básico (compreensão de texto escrito);</li>
-              <li>
-                <strong>
-                  <font color="#1E90FF">Desenvolvedor Web Full Stack</font>
-                </strong>{' '}
-                pela
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.instagram.com/betrybe/"
-                >
-                  Trybe
-                </a>
-                :
-              </li>
-              <ul>
-                <li>
-                  <strong>Módulo IV - Ciência da Computação:</strong>
-                  <br />
-                  Conhecimentos em: Python, POO, Algoritmos e Complexidade,
-                  Estrutura de Dados e Resolução de Problemas.
-                </li>
-                <li>
-                  <strong>Módulo III - Back-End:</strong>
-                  <br />
-                  Conhecimento em: Banco de Dados SQL e NoSQL, Node e ExpressJS,
-                  MVC, API, REST, JWT e File Upload, SOLID, ORM, Sockets e
-                  deploy com Heroku.
-                </li>
-                <li>
-                  <strong>Módulo II - Front-End:</strong>
-                  <br />
-                  Conhecimentos em: React.JS com Componentes, Estados e Eventos,
-                  Componentes Controlados, Ciclo de Vida, Router, Testes RTL,
-                  Redux, ContextAPI e Hooks.
-                </li>
-                <li>
-                  <strong>Módulo I - Fundamentos do Dev Web:</strong>
-                  <br />
-                  Conhecimentos em: Unix & Bash, Git & Internet, JavaScript e
-                  DOM, HTML & CSS Avançado e JS Avançado & Testes Unitários.
-                </li>
-              </ul>
-            </ul>
-          </article>
-        </section>
-        <section className="article">
-          <article>
-            <h3 id="projetos">
-              <font className="caption">Projetos Desenvolvidos:</font>
-              <br />
-            </h3>
-            <p>
-              {' '}
-              <Link to="/projetos">Veja aqui</Link> projetos desenvolvidos para
-              estudo, onde é possível ver cada repositório, as implementações
-              realizadas conforme cada tecnologia tratada e objetivos alcançados
-              de acordo com a proposta lançada e seus requisitos aferidos por
-              testes automatizados.
-            </p>
-            <CarouselImg className="carousel-img" />
-          </article>
-        </section>
-        <br />
-        <section>
-          <article>
-            <h3 id="conteudo">
-              <font className="caption">
-                Conteúdo que Recomendo - Informação e Humor no Mundo da TI:
-              </font>
-              <br />
-            </h3>
-            <div className="recommendations">
-              <div className="card-recommendations">
-                <h4>
-                  <font className="caption-sub">Sites:</font>
-                  <br />
-                </h4>
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://canaltech.com.br/"
-                    >
-                      Canal Tech
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://olhardigital.com.br/"
-                    >
-                      Olhar Digital
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://sempreupdate.com.br/"
-                    >
-                      Sempre Update
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://tableless.com.br/"
-                    >
-                      Tableless
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="card-recommendations">
-                <h4>
-                  <font className="caption-sub">Canais do Youtube:</font>
-                  <br />
-                </h4>
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.youtube.com/c/codigofontetv"
-                    >
-                      Código Fonte TV
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.youtube.com/c/FabioAkita1990"
-                    >
-                      Fabio Akita
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.youtube.com/c/FilipeDeschamps"
-                    >
-                      {' '}
-                      Filipe Deschamps
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.youtube.com/c/Programadorbr"
-                    >
-                      Programador Br
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="card-recommendations">
-                <h4>
-                  <font className="caption-sub">PodCasts Spotify:</font>
-                  <br />
-                </h4>
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://open.spotify.com/show/2BQichCuadNprsfp2uOwor?si=pJqrmHuCSD6vL2AGNZCmIg"
-                    >
-                      Área de Transferência
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://open.spotify.com/show/0LvIvCZfntBuZOpOEhTU0K?si=QzV8FqoJRsqTnZDv-oMvnQ"
-                    >
-                      Braincast
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://open.spotify.com/show/7lH2cFDu0F1K65Jc4Vyz5T?si=Q1wxnRjgTa6VVs0QdLINaQ"
-                    >
-                      Dev Arretado Cast
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://open.spotify.com/show/48gK33FI19AnanSRKhSuoQ?si=RgjI2MgdQ-G3IlRJSm8e6w"
-                    >
-                      DevCast
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://open.spotify.com/show/1yQ2qrscxoTmdUvZgMoY4a?si=n39qfVooQqK7AXumMij_Eg"
-                    >
-                      DevNaEstrada
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://open.spotify.com/show/23i8gD31xHrmPllTm0d3re?si=XrDs9kBtRDCxBWT_1mL_zQ"
-                    >
-                      DevPro
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://open.spotify.com/show/7gNryNpuHuhZTwfbCdiOqL?si=y7ZOgnmQRP-iTVXZSlpPdw"
-                    >
-                      Devs Cansados
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://open.spotify.com/show/2p0Vx75OmfsXktyLBuLuSf?si=UeChlGjeTLalCXN__L8rtg"
-                    >
-                      Hipsters Ponto Tech
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://open.spotify.com/show/4sKgJqaCEQdUECeCViknr5?si=buniJLRNRhCtL6KJOy-mOg"
-                    >
-                      Loop Matinal
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://open.spotify.com/show/084hQAwpMi4PcidWPsO2fY?si=jOp-2uKrQGi-JIBP4UmoLQ"
-                    >
-                      Tecnocast
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://open.spotify.com/show/2dK6bnbumjpnsnX8JMCxEH?si=y-Zh0ayKQ5WB7VoQGS4cRw"
-                    >
-                      Tecnocracia
-                    </a>
-                  </li>
-                  <li>
-                    {' '}
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://open.spotify.com/show/20r428151ZckHf771Lblh3?si=QHEQqW7_Ru21Td2Y_C80NA"
-                    >
-                      TOTVS Developers Podcast
-                    </a>
-                  </li>
-                  <li>
-                    {' '}
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://open.spotify.com/show/13Q4XtzJ1tSZ7trS4dSOf6?si=QzvKBd4iSoqGXiv-5Llg6g"
-                    >
-                      ZOFE - Zone Of Front-Enders
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="card-recommendations">
-                <h4>
-                  <font className="caption-sub">Para Sorrir:</font>
-                  <br />
-                </h4>
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.instagram.com/_compiler._/"
-                    >
-                      _compiler._
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.vidadeprogramador.com.br/"
-                    >
-                      Vida de Programador
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://vidadesuporte.com.br/"
-                    >
-                      Vida de Suporte
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </article>
-        </section>
-        <div className="contact-container" id="contato">
-          <ContactForm className="contact-iframe" />
-        </div>
+          </header>
+          <a href="#projects" className="jumplink pic">
+            <span className="arrow icon solid fa-chevron-right">
+              <span>Veja meus projetos</span>
+            </span>
+            <img src={profileNew} alt="" />
+          </a>
+        </article>
+        <article id="projects" className="panel">
+          <header>
+            <h2>Projetos</h2>
+            <Projects />
+          </header>
+        </article>
+        <article id="aboutme" className="panel">
+          <header>
+            <h2>Sobre Mim</h2>
+          </header>
+        </article>
+        <article id="contact" className="panel">
+          <header>
+            <h2>Contate-me por e-mail</h2>
+            <ContactForm />
+          </header>
+        </article>
       </div>
-      <footer>
-        <Footer />
-      </footer>
-    </main>
+      <div id="footer">
+        <ul className="copyright">
+          <li>&copy; Untitled.</li>
+          <li>Desenvolvido por Flávio Oliveira</li>
+          <li>flavsoliver@gmail.com</li>
+          <li>2024</li>
+        </ul>
+      </div>
+    </>
   );
 }

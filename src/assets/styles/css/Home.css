@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@font-face {
+  font-family: TechnoBold;
+  src: url('../../font/TECHNOB.TTF');
+}
+
+@font-face {
+  font-family: Tekton;
+  src: url('../../font/TEKTON.TTF');
+}
+
+.links-area {
+  margin-top: 1em;
+}
+
+.nav-aside-items {
+  padding: 0 10px;
+}

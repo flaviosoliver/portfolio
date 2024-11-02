@@ -18,12 +18,14 @@
   text-decoration: none;
 }
 
-.header-container a {
+.header-container a,
+.header-container div {
   color: aliceblue;
 }
 
-.header-container a:hover {
-  background-color:#07063f;
+.header-container a:hover,
+.header-container div:hover {
+  background-color: #07063f;
   color: aliceblue;
   text-decoration: none;
 }
@@ -50,7 +52,8 @@ header li:first-child {
   border: none;
 }
 
-header li a {
+header li a,
+header li div {
   -webkit-transition: all 300ms ease;
   color: #999;
   display: block;
@@ -61,7 +64,8 @@ header li a {
   transition: all 300ms ease;
 }
 
-header li a:hover {
+header li a:hover,
+header li div:hover {
   color: #333;
 }
 

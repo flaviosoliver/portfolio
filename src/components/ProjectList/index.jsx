@@ -3,7 +3,7 @@
 /* eslint-disable import/no-cycle */
 import React, { useEffect, useState } from 'react';
 import { ProjectCard } from '../index';
-import '../../assets/styles/ProjectList.css';
+import '../../assets/styles/css/ProjectList.css';
 
 export default function ProjectList({ projects }) {
   const [resolvedProjects, setResolvedProjects] = useState([]);

@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Select from 'react-select';
 import makeAnimated from 'react-select/animated';
 import * as dataAPI from '../../services/dataAPI';
-import '../../assets/styles/ProjectFilter.css';
+import '../../assets/styles/css/ProjectFilter.css';
 
 const animatedComponents = makeAnimated();
 

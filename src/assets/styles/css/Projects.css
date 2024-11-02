@@ -13,7 +13,6 @@
 }
 
 .project-list h1 {
-  color: rgb(209, 209, 209);
   font-size: min(max(16px, 4vw), 18px);
   justify-content: center;
   margin: 0 auto;
@@ -59,9 +58,15 @@
   text-align: center;
 }
 
+.project-content p {
+  margin-bottom: 0.5em;
+  line-height: normal;
+}
+
 .project-content,
 .task-content {
-  color: rgb(209, 209, 209);
+  color: currentColor;
+  font-size: large;
 }
 
 .task-btn {
