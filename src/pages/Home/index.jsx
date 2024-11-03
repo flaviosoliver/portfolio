@@ -16,7 +16,7 @@ import {
   faAddressCard,
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
-import { ContactForm, Projects } from '../../components/';
+import { ContactForm, FileDownload, Projects } from '../../components/';
 import { profileNew } from '../../services/ExportImages';
 import '../../assets/js/main';
 import { navList, panel } from '../../assets/js/util';
@@ -97,6 +97,39 @@ export default function Home() {
         <article id="aboutme" className="panel">
           <header>
             <h2>Sobre Mim</h2>
+            <p className="text-break mb-2" style={{ color: 'currentcolor' }}>
+              <strong className="text-secondary">
+                Desenvolvedor Web Full Stack
+              </strong>
+              , entusiasta por novos conhecimentos e fascinado por minha
+              profissão. Com sólida experiência em desenvolvimento Front-end e
+              Back-end, apaixonado por criar soluções inovadoras e eficientes,
+              que gerem impacto positivo na vida das pessoas usuárias. Possuo
+              profundo conhecimento em{' '}
+              <strong className="text-primary">
+                TypeScript/NodeJS (JavaScript).
+              </strong>
+            </p>
+            <p className="text-break mb-2" style={{ color: 'currentcolor' }}>
+              Ao longo de minha carreira, desenvolvi diversas aplicações web,
+              otimizando o desempenho e entregando resultados de alta qualidade
+              com as tecnologias:
+              <br />
+              Front-end: <strong>Angular,</strong> <strong>React,</strong>{' '}
+              <strong>HTML,</strong> <strong>CSS3</strong> e{' '}
+              <strong>SASS;</strong>
+              <br />
+              Back-end: <strong>NodeJS,</strong> <strong>ExpressJS,</strong>{' '}
+              <strong>NestJS,</strong> <strong>TypeORM</strong> e{' '}
+              <strong>Mongoose;</strong>
+              <br />
+              Banco de dados: <strong>MySQL</strong> e <strong>MongoDB.</strong>
+            </p>
+            <p className="text-break mb-2" style={{ color: 'currentcolor' }}>
+              Baixe meu currículo clicando no botão logo abaixo e conheça melhor
+              minhas experiências e expertises.
+            </p>
+            <FileDownload />
           </header>
         </article>
         <article id="contact" className="panel">
