@@ -8,21 +8,13 @@
   width: 70px;
 }
 
-.project-list {
-  margin: 60px auto;
-}
-
-.project-list h1 {
-  font-size: min(max(16px, 4vw), 18px);
-  justify-content: center;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 10%;
+.project-filter {
+  margin-bottom: 0;
 }
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 400px);
+  grid-template-columns: repeat(auto-fit, 300px);
   justify-content: center;
   padding: 20px 20px;
 }

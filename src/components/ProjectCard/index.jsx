@@ -50,7 +50,7 @@ function ProjectCard(props) {
                 window.open(repo, '_blank');
               }}
             >
-              Ver Repositório
+              Repositório
             </Button>
           </div>
           <div className="task-btn-deploy">
@@ -62,7 +62,7 @@ function ProjectCard(props) {
                   window.open(deploy, '_blank');
                 }}
               >
-                Acessar Deploy
+                Acessar
               </Button>
             )}
           </div>

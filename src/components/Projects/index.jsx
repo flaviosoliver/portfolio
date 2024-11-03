@@ -13,11 +13,11 @@ export default function Projects() {
 
   return (
     <main className="project-list">
-      <h1>
+      <p>
         Aqui você verá projetos desenvolvidos no decorrer do Curso de Dev Web
         Full Stack da Trybe e projetos pessoais, com objetivo de estudo ou
         alguma aplicação para resolução de necessidades.
-      </h1>
+      </p>
       <section className="project-filter">
         <ProjectFilter projects={projects} onFilter={setProjects} />
       </section>

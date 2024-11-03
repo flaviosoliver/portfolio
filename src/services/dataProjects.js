@@ -1,6 +1,26 @@
 const projects = [
   {
     id: 'proj01',
+    module: '',
+    block: '',
+    name: 'WhatsApp Useful',
+    stack: [
+      'TypeScript',
+      'Angular',
+      'Angular Material',
+      'Angular Forms',
+      'SASS',
+    ],
+    alias: 'whatsapp-useful',
+    description:
+      'Criar uma página Web de layout agradável utilizando Angular v15 onde seja possível chamar a API do WhatsApp e poder iniciar uma conversa sem a premissa de ter esse contato salvo na agenda.',
+    image: '/assets/img/WhatsAppUseful.png',
+    repo: 'https://github.com/flaviosoliver/whatsapp-useful',
+    deploy: 'https://flaviosoliver.github.io/whatsapp-useful/',
+    focus: 'Pessoal',
+  },
+  {
+    id: 'proj001',
     module: 'Trybe - Mód. I - Fundamentos do Desenvolvimento Web',
     block: 'Bloco 03 - Introdução à HTML e CSS',
     name: 'Lessons Learned',
@@ -14,7 +34,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj02',
+    id: 'proj002',
     module: 'Trybe - Mód. I - Fundamentos do Desenvolvimento Web',
     block: 'Bloco 04 - Introdução à JavaScript e Lógica de Programação',
     name: 'Playground Function',
@@ -27,7 +47,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj05',
+    id: 'proj005',
     module: 'Trybe - Mód. I - Fundamentos do Desenvolvimento Web',
     block: 'Bloco 05 - JavaScript: DOM, Eventos e Web Storage',
     name: 'Arte com Pixels',
@@ -41,7 +61,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj06',
+    id: 'proj006',
     module: 'Trybe - Mód. I - Fundamentos do Desenvolvimento Web',
     block: 'Bloco 05 - JavaScript: DOM, Eventos e Web Storage',
     name: 'Meme Generator',
@@ -55,7 +75,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj07',
+    id: 'proj007',
     module: 'Trybe - Mód. I - Fundamentos do Desenvolvimento Web',
     block: 'Bloco 05 - JavaScript: DOM, Eventos e Web Storage',
     name: 'Lista de tarefas',
@@ -69,7 +89,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj08',
+    id: 'proj008',
     module: 'Trybe - Mód. I - Fundamentos do Desenvolvimento Web',
     block: 'Bloco 06 - HTML e CSS: Forms, Flexbox e Responsivo',
     name: 'Página inicial do Facebook',
@@ -83,7 +103,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj09',
+    id: 'proj009',
     module: 'Trybe - Mód. I - Fundamentos do Desenvolvimento Web',
     block: 'Bloco 07 - Introdução à JavaScript ES6 e Testes Unitários',
     name: 'JavaScript Testes Unitários',
@@ -97,7 +117,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj10',
+    id: 'proj010',
     module: 'Trybe - Mód. I - Fundamentos do Desenvolvimento Web',
     block: 'Bloco 08 - Higher Order Functions do JavaScript ES6',
     name: 'Zoo Functions',
@@ -111,7 +131,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj11',
+    id: 'proj011',
     module: 'Trybe - Mód. I - Fundamentos do Desenvolvimento Web',
     block: 'Bloco 09 - JavaScript Assíncrono e Promises',
     name: 'Carrinho de Compras',
@@ -125,7 +145,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj12',
+    id: 'proj012',
     module: 'Trybe - Mód. I - Fundamentos do Desenvolvimento Web',
     block: 'Bloco 10 - Testes automatizados com Jest',
     name: 'Jest Assíncrono e Mocking',
@@ -139,7 +159,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj13',
+    id: 'proj013',
     module: 'Trybe - Mód. II - Desenvolvimento Front-end',
     block: 'Bloco 11 - Introdução à React',
     name: 'Movie Cards Library',
@@ -153,7 +173,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj14',
+    id: 'proj014',
     module: 'Trybe - Mód. II - Desenvolvimento Front-end',
     block: 'Bloco 12 - Componentes com Estado, Eventos e Formulários com React',
     name: 'Movie Cards Library Stateful',
@@ -168,7 +188,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj15',
+    id: 'proj015',
     module: 'Trybe - Mód. II - Desenvolvimento Front-end',
     block: 'Bloco 13 - Ciclo de Vida de Componentes e React Router',
     name: 'Movie Cards Library CRUD',
@@ -182,7 +202,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj16',
+    id: 'proj016',
     module: 'Trybe - Mód. II - Desenvolvimento Front-end',
     block: 'Bloco 14 - Metodologias Ágeis',
     name: 'Frontend Online Store',
@@ -196,7 +216,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj17',
+    id: 'proj017',
     module: 'Trybe - Mód. II - Desenvolvimento Front-end',
     block: 'Bloco 15 - Testes automatizados com React Testing Library',
     name: 'Testes em React',
@@ -209,7 +229,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj18',
+    id: 'proj018',
     module: 'Trybe - Mód. II - Desenvolvimento Front-end',
     block: 'Bloco 16 - Gerenciamento de estado com Redux',
     name: 'Trybe Wallet',
@@ -223,7 +243,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj19',
+    id: 'proj019',
     module: 'Trybe - Mód. II - Desenvolvimento Front-end',
     block: 'Bloco 17 - Projeto Jogo de Trivia',
     name: 'Jogo de Trivia',
@@ -237,7 +257,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj20',
+    id: 'proj020',
     module: 'Trybe - Mód. II - Desenvolvimento Front-end',
     block: 'Bloco 18 - Context API e React Hooks',
     name: 'StarWars DataTable com Context API e Hooks',
@@ -251,7 +271,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj21',
+    id: 'proj021',
     module: 'Trybe - Mód. II - Desenvolvimento Front-end',
     block: 'Bloco 19 - Projeto App de Receitas',
     name: 'App de Receitas',
@@ -265,7 +285,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj22',
+    id: 'proj022',
     module: 'Trybe - Mód. III - Desenvolvimento Back-end',
     block: 'Bloco 20 - Introdução à SQL',
     name: 'All For One',
@@ -279,7 +299,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj23',
+    id: 'proj023',
     module: 'Trybe - Mód. III - Desenvolvimento Back-end',
     block: 'Bloco 21 - Funções SQL, Joins e Subqueries',
     name: 'Vocabulary Booster',
@@ -293,7 +313,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj24',
+    id: 'proj024',
     module: 'Trybe - Mód. III - Desenvolvimento Back-end',
     block: 'Bloco 22 - Normalização e Modelagem de Banco de Dados',
     name: 'One For All',
@@ -307,7 +327,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj25',
+    id: 'proj025',
     module: 'Trybe - Mód. III - Desenvolvimento Back-end',
     block: 'Bloco 23 - Introdução ao MongoDB',
     name: 'Data Flights',
@@ -321,7 +341,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj26',
+    id: 'proj026',
     module: 'Trybe - Mód. III - Desenvolvimento Back-end',
     block: 'Bloco 24 - MongoDB: Updates Simples e Complexos',
     name: 'Commerce',
@@ -335,7 +355,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj27',
+    id: 'proj027',
     module: 'Trybe - Mód. III - Desenvolvimento Back-end',
     block: 'Bloco 25 - MongoDB: Aggregation Framework',
     name: 'Aggregations',
@@ -349,7 +369,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj28',
+    id: 'proj028',
     module: 'Trybe - Mód. III - Desenvolvimento Back-end',
     block: 'Bloco 26 - Introdução ao desenvolvimento Web com NodeJS',
     name: 'Crush Manager',
@@ -363,7 +383,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj29',
+    id: 'proj029',
     module: 'Trybe - Mód. III - Desenvolvimento Back-end',
     block: 'Bloco 27 - NodeJS: Camada de Serviço e Arquitetura Rest e Restful',
     name: 'Store Manager',
@@ -384,7 +404,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj30',
+    id: 'proj030',
     module: 'Trybe - Mód. III - Desenvolvimento Back-end',
     block: 'Bloco 28 - Autenticação e Upload de Arquivos',
     name: 'Cookmaster',
@@ -406,7 +426,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj31',
+    id: 'proj031',
     module: 'Trybe - Mód. III - Desenvolvimento Back-end',
     block: 'Bloco 29 - Deployment',
     name: 'Stranger Things',
@@ -420,7 +440,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj32',
+    id: 'proj032',
     module: 'Trybe - Mód. III - Desenvolvimento Back-end',
     block: 'Bloco 30 - Projeto Trybeer',
     name: 'Trybeer',
@@ -434,7 +454,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj33',
+    id: 'proj033',
     module: 'Trybe - Mód. III - Desenvolvimento Back-end',
     block: 'Bloco 31 - Arquitetura: SOLID e ORM',
     name: 'API de Blogs',
@@ -448,7 +468,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj34',
+    id: 'proj034',
     module: 'Trybe - Mód. III - Desenvolvimento Back-end',
     block: 'Bloco 32 - Sockets',
     name: 'Webchat',
@@ -462,7 +482,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj35',
+    id: 'proj035',
     module: 'Trybe - Mód. IV - Ciência da Computação',
     block: 'Bloco 35 - Introdução ao Python e Raspagem de Dados da Web',
     name: 'Tech News',
@@ -476,7 +496,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj36',
+    id: 'proj036',
     module: 'Trybe - Mód. IV - Ciência da Computação',
     block: 'Bloco 36 - Programação Orientada a Objetos e Design Patterns',
     name: 'Inventory Reports',
@@ -490,7 +510,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj37',
+    id: 'proj037',
     module: 'Trybe - Mód. IV - Ciência da Computação',
     block: 'Bloco 37 - Algoritmos e Estrutura de Dados',
     name: 'Algorithms',
@@ -504,7 +524,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj39',
+    id: 'proj039',
     module: 'Trybe - Mód. IV - Ciência da Computação',
     block: 'Bloco 38 - Estrutura de Dados: Nó e Listas',
     name: 'Restaurant Orders',
@@ -518,7 +538,7 @@ const projects = [
     focus: 'Trybe',
   },
   {
-    id: 'proj40',
+    id: 'proj040',
     module: 'Trybe - Mód. IV - Ciência da Computação',
     block: 'Bloco 39 - Estrutura de Dados: Pilhas, Deques e Listas',
     name: 'TING - Trybe Is Not Google',
@@ -538,26 +558,6 @@ const projects = [
     repo: 'https://github.com/flaviosoliver/project-ting',
     deploy: '',
     focus: 'Trybe',
-  },
-  {
-    id: 'proj41',
-    module: '',
-    block: '',
-    name: 'WhatsApp Useful',
-    stack: [
-      'TypeScript',
-      'Angular',
-      'Angular Material',
-      'Angular Forms',
-      'SASS',
-    ],
-    alias: 'whatsapp-useful',
-    description:
-      'Criar uma página Web de layout agradável utilizando Angular v15 onde seja possível chamar a API do WhatsApp e poder iniciar uma conversa sem a premissa de ter esse contato salvo na agenda.',
-    image: '/assets/img/WhatsAppUseful.png',
-    repo: 'https://github.com/flaviosoliver/whatsapp-useful',
-    deploy: 'https://flaviosoliver.github.io/whatsapp-useful/',
-    focus: 'Pessoal',
   },
 ];
 
