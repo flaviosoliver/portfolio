@@ -141,10 +141,10 @@ export default function Home() {
       </div>
       <div id="footer">
         <ul className="copyright">
-          <li>&copy; Untitled.</li>
+          <li>&copy; 2024.</li>
           <li>Desenvolvido por Flávio Oliveira</li>
           <li>flavsoliver@gmail.com</li>
-          <li>2024</li>
+          <li></li>
         </ul>
       </div>
     </>

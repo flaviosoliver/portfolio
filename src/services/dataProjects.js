@@ -20,6 +20,20 @@ const projects = [
     focus: 'Pessoal',
   },
   {
+    id: 'proj02',
+    module: '',
+    block: '',
+    name: 'Portfólio Pessoal',
+    stack: ['JavaScript', 'React', 'SASS', 'Bootstrap'],
+    alias: 'portfolio',
+    description:
+      'Uma página da web para exibir meus projetos realizados, informações pessoais e testar habilidades',
+    image: '/assets/img/ProjectPortfolio.png',
+    repo: 'https://github.com/flaviosoliver/portfolio',
+    deploy: 'https://flaviosoliver-portfolio.vercel.app/',
+    focus: 'Pessoal',
+  },
+  {
     id: 'proj001',
     module: 'Trybe - Mód. I - Fundamentos do Desenvolvimento Web',
     block: 'Bloco 03 - Introdução à HTML e CSS',
