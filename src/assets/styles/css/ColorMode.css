@@ -1,0 +1,126 @@
+/* Botão flutuante de alternância de tema */
+.theme-toggle-btn {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.25rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(13, 18, 23, 0.65);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #ffc107;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  outline: none;
+}
+
+.theme-toggle-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.theme-toggle-btn:focus-visible {
+  outline: 2px solid #1e90ff;
+  outline-offset: 2px;
+}
+
+/* Transições suaves no corpo e contêiner principal */
+body, #main, .project-grid-item {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Modo Escuro */
+body.dark-theme .theme-toggle-btn {
+  background: rgba(255, 255, 255, 0.15);
+  color: #f6e05e;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+body.dark-theme #main {
+  background: #141923;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+  color: #e6edf3;
+}
+
+body.dark-theme #main > .panel {
+  color: #e6edf3;
+}
+
+body.dark-theme #main > .panel h1,
+body.dark-theme #main > .panel h2,
+body.dark-theme #main > .panel h3 {
+  color: #ffffff;
+}
+
+body.dark-theme #main > .panel p {
+  color: #c9d1d9;
+}
+
+body.dark-theme .project-grid-item {
+  background: #1a2232;
+  border-color: #2d3748;
+}
+
+body.dark-theme .project-grid-item:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 8px 24px rgba(59, 130, 246, 0.2);
+  transform: translateY(-2px);
+}
+
+body.dark-theme .project-content,
+body.dark-theme .task-content {
+  color: #c9d1d9;
+}
+
+body.dark-theme .task-title {
+  color: #60a5fa;
+}
+
+body.dark-theme .badge-custom {
+  background-color: #2d3748 !important;
+  color: #93c5fd !important;
+  border: 1px solid rgba(147, 197, 253, 0.2);
+}
+
+/* Estilos de tema escuro para o react-select */
+body.dark-theme .select__control {
+  background-color: #1a2232 !important;
+  border-color: #2d3748 !important;
+  color: #ffffff !important;
+}
+
+body.dark-theme .select__single-value,
+body.dark-theme .select__input-container {
+  color: #ffffff !important;
+}
+
+body.dark-theme .select__menu {
+  background-color: #1a2232 !important;
+  border: 1px solid #2d3748 !important;
+}
+
+body.dark-theme .select__option {
+  background-color: #1a2232 !important;
+  color: #e6edf3 !important;
+}
+
+body.dark-theme .select__option--is-focused {
+  background-color: #25334a !important;
+}
+
+body.dark-theme .select__multi-value {
+  background-color: #2d3748 !important;
+}
+
+body.dark-theme .select__multi-value__label {
+  color: #93c5fd !important;
+}

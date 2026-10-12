@@ -16,7 +16,7 @@ import {
   faAddressCard,
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
-import { ContactForm, FileDownload, Projects } from '../../components/';
+import { ContactForm, FileDownload, Projects, ColorMode } from '../../components/';
 import { profileNew } from '../../services/ExportImages';
 
 const VALID_TABS = ['#home', '#projects', '#aboutme', '#contact'];
@@ -59,6 +59,7 @@ export default function Home() {
 
   return (
     <>
+      <ColorMode />
       <nav id="nav">
         <a
           href="#home"
