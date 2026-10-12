@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './assets/styles/css/main.css';
-import './assets/styles/css/noscript.css';
 
 import App from './App';
 
