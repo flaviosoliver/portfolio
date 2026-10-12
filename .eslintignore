@@ -1,4 +1,4 @@
 node_modules
 build
-src/assets/old/**
-src/assets/old-react/**
+dist
+archive/**
