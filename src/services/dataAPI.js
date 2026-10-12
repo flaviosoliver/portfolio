@@ -1,18 +1,44 @@
 import data from './dataProjects';
 
-localStorage.setItem('dataProjects', JSON.stringify(data));
+try {
+  localStorage.setItem('dataProjects', JSON.stringify(data));
+} catch (e) {
+  // localStorage may be disabled in private browsing
+}
 
 const skill = [];
 let stacksResult = [];
-data.forEach((e) => skill.push(e.stack));
-const stacksFull = skill.join(',');
-const stacksStringReplace = stacksFull.split(',');
-const stackUnique = [...new Set(stacksStringReplace)];
+data.forEach((e) => {
+  if (Array.isArray(e.stack)) {
+    skill.push(...e.stack);
+  }
+});
+const stackUnique = [...new Set(skill)].filter(Boolean);
 stacksResult = Array.from(stackUnique).sort();
-localStorage.setItem('dataStacks', JSON.stringify(stacksResult));
 
-const readProjects = () => JSON.parse(localStorage.getItem('dataProjects'));
-const readStacks = () => JSON.parse(localStorage.getItem('dataStacks'));
+try {
+  localStorage.setItem('dataStacks', JSON.stringify(stacksResult));
+} catch (e) {
+  // localStorage may be disabled in private browsing
+}
+
+const readProjects = () => {
+  try {
+    const item = localStorage.getItem('dataProjects');
+    return item ? JSON.parse(item) : data;
+  } catch (e) {
+    return data;
+  }
+};
+
+const readStacks = () => {
+  try {
+    const item = localStorage.getItem('dataStacks');
+    return item ? JSON.parse(item) : stacksResult;
+  } catch (e) {
+    return stacksResult;
+  }
+};
 
 export const getAllStacks = () => {
   const res = new Promise((resolve) => {

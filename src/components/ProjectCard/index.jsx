@@ -18,6 +18,10 @@ function ProjectCard(props) {
         className="project-grid-item-imagem"
         src={image === '' ? Project : `${process.env.PUBLIC_URL}${image}`}
         alt={name}
+        onError={(e) => {
+          e.currentTarget.onerror = null;
+          e.currentTarget.src = Project;
+        }}
       />
       <p className="project-title">{name}</p>
       <div className="project-content">
@@ -45,10 +49,9 @@ function ProjectCard(props) {
           <div className="task-btn-repo">
             <Button
               variant="primary"
-              onClick={(e) => {
-                e.preventDefault();
-                window.open(repo, '_blank');
-              }}
+              href={repo}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Repositório
             </Button>
@@ -57,10 +60,9 @@ function ProjectCard(props) {
             {hasDeploy && (
               <Button
                 variant="primary"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.open(deploy, '_blank');
-                }}
+                href={deploy}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Acessar
               </Button>

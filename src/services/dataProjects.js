@@ -42,7 +42,7 @@ const projects = [
     alias: 'todo-gym-front',
     description:
       'Uma aplicação web para gerenciamento de atividades físicas, permitindo que os usuários criem, editem, excluam exercícios, montem plano de treino e registrem sua evolução.',
-    image: '/assets/img/Project.png',
+    image: '',
     repo: 'https://github.com/flaviosoliver/todo-gym-front',
     deploy: 'https://todo-gym.vercel.app',
     focus: 'Pessoal',
@@ -69,9 +69,32 @@ const projects = [
     alias: 'todo-gym-api',
     description:
       'API para gerenciamento de atividades físicas, permitindo que os usuários criem, editem, excluam exercícios, montem plano de treino e registrem sua evolução.',
-    image: '/assets/img/Project.png',
+    image: '',
     repo: 'https://github.com/flaviosoliver/todo-gym-api',
     deploy: 'https://todo-gym-api.vercel.app',
+    focus: 'Pessoal',
+  },
+  {
+    id: 'proj05',
+    module: '',
+    block: '',
+    name: 'Workspace Utils',
+    stack: [
+      'TypeScript',
+      'NextJS',
+      'Tailwind',
+      'JWT',
+      'Access Token',
+      'MongoDB',
+      'Bycrypt',
+      'NodeJS',
+    ],
+    alias: 'workspace-utils',
+    description:
+      'Desenvolvimento FullStack utilizando o NextJS, como framework para Front-end e Back-end. É um ambiente com utilitários para facilitar e organizar o dia-a-dia, com lembrete de água, tarefas, listas to-do, bloco de anotações, timer, pomodoro, geração de dados (senhas, pessoa fake, endereço, CPF, CNPJ e textos Lorem Ipsum) player de músicas e chats com agentes de IA. Tudo isso na facilidade de apenas uma aba em seu navegador.',
+    image: '',
+    repo: 'https://github.com/flaviosoliver/workspace-utils',
+    deploy: 'https://workspace-utils.vercel.app',
     focus: 'Pessoal',
   },
   {

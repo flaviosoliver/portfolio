@@ -46,7 +46,9 @@ input[type=submit]:hover {
 }
 
 .contact-iframe {
-  border: 0
+  border: 0;
+  width: 100%;
+  max-width: 640px;
 }
 
 .submit-container {

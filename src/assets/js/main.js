@@ -1,33 +1,31 @@
-/* eslint-disable */
-document.addEventListener('DOMContentLoaded', function () {
+/* eslint-disable no-param-reassign */
+function setupMain() {
   const windowEl = window;
-  const body = document.body;
+  const { body } = document;
   const main = document.getElementById('main');
   const panels = main ? main.querySelectorAll('.panel') : [];
   const nav = document.getElementById('nav');
   const navLinks = nav ? nav.querySelectorAll('a') : [];
 
-  // Configuração de breakpoints
-  const breakpoints = {
-    xlarge: [1281, 1680],
-    large: [981, 1280],
-    medium: [737, 980],
-    small: [361, 736],
-    xsmall: [null, 360],
-  };
-
   // Remover a classe 'is-preload' após o carregamento
-  windowEl.addEventListener('load', () => {
+  if (document.readyState === 'complete') {
     setTimeout(() => {
       body.classList.remove('is-preload');
     }, 100);
-  });
+  } else {
+    windowEl.addEventListener('load', () => {
+      setTimeout(() => {
+        body.classList.remove('is-preload');
+      }, 100);
+    });
+  }
 
-  // Navegação por links
+  // Navegação por links do menu
   navLinks.forEach((link) => {
     link.addEventListener('click', (event) => {
       const href = link.getAttribute('href');
-      if (!href.startsWith('#') || !document.querySelector(href)) return;
+      if (!href || !href.startsWith('#') || !document.querySelector(href))
+        return;
 
       event.preventDefault();
       event.stopPropagation();
@@ -40,15 +38,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Inicialização do painel ao carregar a página
   (function initPanel() {
-    let panel, link;
+    let panel;
+    let link;
     if (window.location.hash) {
       panel = document.querySelector(window.location.hash);
-      link = nav.querySelector(`[href="${window.location.hash}"]`);
+      link = nav ? nav.querySelector(`[href="${window.location.hash}"]`) : null;
     }
 
     if (!panel) {
-      panel = panels[0];
-      link = navLinks[0];
+      [panel] = panels;
+      [link] = navLinks;
     }
 
     panels.forEach((p) => {
@@ -58,6 +57,11 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
 
+    if (panel) {
+      panel.classList.remove('inactive');
+      panel.style.display = '';
+    }
+
     if (link) link.classList.add('active');
     windowEl.scrollTo(0, 0);
   })();
@@ -65,11 +69,13 @@ document.addEventListener('DOMContentLoaded', function () {
   // Trocar de painel ao alterar o hash
   windowEl.addEventListener('hashchange', () => {
     let panel = document.querySelector(window.location.hash);
-    let link = nav.querySelector(`[href="${window.location.hash}"]`);
+    let link = nav
+      ? nav.querySelector(`[href="${window.location.hash}"]`)
+      : null;
 
     if (!panel) {
-      panel = panels[0];
-      link = navLinks[0];
+      [panel] = panels;
+      [link] = navLinks;
     }
 
     panels.forEach((p) => {
@@ -79,10 +85,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (panel) {
       panel.classList.remove('inactive');
-      panel.style.display = 'block';
+      panel.style.display = '';
     }
 
     navLinks.forEach((l) => l.classList.remove('active'));
     if (link) link.classList.add('active');
   });
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', setupMain);
+} else {
+  setupMain();
+}

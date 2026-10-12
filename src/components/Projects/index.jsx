@@ -8,7 +8,9 @@ export default function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    setProjects(dataAPI.getAllProjects());
+    dataAPI.getAllProjects().then((data) => {
+      setProjects(data || []);
+    });
   }, []);
 
   return (

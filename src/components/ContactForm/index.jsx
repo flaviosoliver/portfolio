@@ -7,12 +7,15 @@ export default function ContactForm() {
     <div className="container1">
       <Iframe
         url="https://docs.google.com/forms/d/e/1FAIpQLSdsr0Dmzu-I6ir9OMcU7FNM0hNfn_mZwCJKgyUTP4Xlqg7K5A/viewform?embedded=true"
-        width="640px"
+        width="100%"
         height="1240px"
         id=""
         className="contact-iframe"
         display="block"
         position="relative"
+        styles={{
+          maxWidth: '640px',
+        }}
       />
     </div>
   );

@@ -19,17 +19,9 @@ import {
 import { ContactForm, FileDownload, Projects } from '../../components/';
 import { profileNew } from '../../services/ExportImages';
 import '../../assets/js/main';
-import { navList, panel } from '../../assets/js/util';
 
 // https://forms.gle/fPJtoVA4wUr2exSUA
 export default function Home() {
-  useEffect(() => {
-    const nav = document.querySelector('#nav');
-    navList(nav);
-
-    const panelElement = document.querySelector('#main');
-    panel(panelElement, { hideOnClick: true, side: 'left' });
-  }, []);
   return (
     <>
       <nav id="nav">
@@ -141,10 +133,13 @@ export default function Home() {
       </div>
       <div id="footer">
         <ul className="copyright">
-          <li>&copy; 2024.</li>
+          <li>&copy; {new Date().getFullYear()}.</li>
           <li>Desenvolvido por Flávio Oliveira</li>
-          <li>flavsoliver@gmail.com</li>
-          <li></li>
+          <li>
+            <a href="mailto:flavsoliver@gmail.com" style={{ color: 'inherit' }}>
+              flavsoliver@gmail.com
+            </a>
+          </li>
         </ul>
       </div>
     </>

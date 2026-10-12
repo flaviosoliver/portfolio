@@ -11,8 +11,8 @@ export default function ProjectList({ projects }) {
   useEffect(() => {
     if (Array.isArray(projects)) {
       setResolvedProjects(projects);
-    } else {
-      projects.then((data) => setResolvedProjects(data));
+    } else if (projects && typeof projects.then === 'function') {
+      projects.then((data) => setResolvedProjects(data || []));
     }
   }, [projects]);
 

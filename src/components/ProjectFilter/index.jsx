@@ -39,6 +39,7 @@ export default function ProjectFilter({ onFilter }) {
   }, [onFilter, projects, selectedStacks]);
 
   function transformArray(arr) {
+    if (!arr || !Array.isArray(arr)) return [];
     return Array.from(arr, (option) => option.value);
   }
 
