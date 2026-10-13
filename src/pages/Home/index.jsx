@@ -16,7 +16,13 @@ import {
   faAddressCard,
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
-import { ContactForm, FileDownload, Projects, ColorMode } from '../../components/';
+import {
+  ContactForm,
+  FileDownload,
+  Projects,
+  ColorMode,
+  ScrollToTop,
+} from '../../components/';
 import { profileNew } from '../../services/ExportImages';
 
 const VALID_TABS = ['#home', '#projects', '#aboutme', '#contact'];
@@ -60,6 +66,7 @@ export default function Home() {
   return (
     <>
       <ColorMode />
+      <ScrollToTop />
       <nav id="nav">
         <a
           href="#home"
@@ -178,7 +185,7 @@ export default function Home() {
             <h2>Sobre Mim</h2>
             <p className="text-break mb-2" style={{ color: 'currentcolor' }}>
               <strong className="text-secondary">
-                Desenvolvedor Web Full Stack
+                Desenvolvedor Web Full Stack Sênior
               </strong>
               , entusiasta por novos conhecimentos e fascinado por minha
               profissão. Com sólida experiência em desenvolvimento Front-end e
@@ -195,14 +202,15 @@ export default function Home() {
               com as tecnologias:
               <br />
               Front-end: <strong>Angular,</strong> <strong>React,</strong>{' '}
-              <strong>HTML,</strong> <strong>CSS3</strong> e{' '}
-              <strong>SASS;</strong>
+              <strong>NextJS,</strong> <strong>HTML,</strong>{' '}
+              <strong>CSS3</strong> e <strong>SASS;</strong>
               <br />
               Back-end: <strong>NodeJS,</strong> <strong>ExpressJS,</strong>{' '}
               <strong>NestJS,</strong> <strong>TypeORM</strong> e{' '}
               <strong>Mongoose;</strong>
               <br />
-              Banco de dados: <strong>MySQL</strong> e <strong>MongoDB.</strong>
+              Banco de dados: <strong>MySQL,</strong>{' '}
+              <strong>PostgreSQL</strong> e <strong>MongoDB.</strong>
             </p>
             <p className="text-break mb-2" style={{ color: 'currentcolor' }}>
               Baixe meu currículo clicando no botão logo abaixo e conheça melhor

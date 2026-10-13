@@ -6,6 +6,7 @@ import ProjectList from './ProjectList';
 import ColorMode from './ColorMode';
 import Projects from './Projects';
 import FileDownload from './FileDownload';
+import ScrollToTop from './ScrollToTop';
 
 export {
   ProjectCard,
@@ -15,4 +16,5 @@ export {
   ColorMode,
   Projects,
   FileDownload,
+  ScrollToTop,
 };
